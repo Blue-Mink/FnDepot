@@ -30,9 +30,9 @@
       "distributor": "Blue-Mink",
       "distributor_url": "https://github.com/Blue-Mink",
       "run_as": "package",
-      "install_type": "存储空间",
+      "install_type": "",
       "is_docker": true,
-      "service_port": "32678",
+      "service_port": "",
       "releases": {
         "1.2.2": {
           "changelog": "1. 默认访问端口改为 32678\n2. 应用设置修改端口后同步更新桌面快捷方式端口\n3. 修复 fpk 打包格式问题",
