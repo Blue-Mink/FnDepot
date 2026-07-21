@@ -1,0 +1,16 @@
+{
+  "global-radio": {
+    "display_name": "全球电台",
+    "platform": "all",
+    "version": "1.2.2",
+    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+    "labels": "娱乐,音乐,电台",
+    "isdocker": "true",
+    "size": "30",
+    "install_type": "存储空间",
+    "changelog": "1. 默认访问端口改为 32678\n2. 应用设置修改端口后同步更新桌面快捷方式端口\n3. 修复 fpk 打包格式问题"
+  }
+}
