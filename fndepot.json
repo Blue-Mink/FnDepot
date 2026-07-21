@@ -1,16 +1,51 @@
 {
-  "global-radio": {
-    "display_name": "全球电台",
-    "platform": "all",
-    "version": "1.2.2",
-    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
-    "distributor": "Blue-Mink",
-    "distributor_url": "https://github.com/Blue-Mink",
-    "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
-    "labels": "娱乐,音乐,电台",
-    "isdocker": "true",
-    "size": "30",
-    "install_type": "存储空间",
-    "changelog": "1. 默认访问端口改为 32678\n2. 应用设置修改端口后同步更新桌面快捷方式端口\n3. 修复 fpk 打包格式问题"
+  "schema_version": "2.0",
+  "source_info": {
+    "id": "com.blue-mink.fndepot",
+    "name": "Blue-Mink 应用源",
+    "author": "Blue-Mink",
+    "homepage": "https://github.com/Blue-Mink",
+    "description": "Blue-Mink 的飞牛第三方应用仓库",
+    "updated_at": "2026-07-22T12:00:00+08:00"
+  },
+  "apps": {
+    "global-radio": {
+      "display_name": "全球电台",
+      "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "娱乐",
+        "音乐"
+      ],
+      "icon_url": "./global-radio/ICON.PNG",
+      "readme_url": "./global-radio/README.md",
+      "homepage": "https://github.com/moli-xia/global-radio",
+      "repo_url": "https://github.com/Blue-Mink/FnDepot",
+      "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+      "maintainer": "moli-xia",
+      "maintainer_url": "https://github.com/moli-xia",
+      "distributor": "Blue-Mink",
+      "distributor_url": "https://github.com/Blue-Mink",
+      "run_as": "package",
+      "install_type": "存储空间",
+      "is_docker": true,
+      "service_port": "32678",
+      "releases": {
+        "1.2.2": {
+          "changelog": "1. 默认访问端口改为 32678\n2. 应用设置修改端口后同步更新桌面快捷方式端口\n3. 修复 fpk 打包格式问题",
+          "updated_at": "2026-07-22T03:15:00+08:00",
+          "os_min_version": "0.0.1",
+          "packages": {
+            "all": {
+              "download_url": "./global-radio/global-radio.fpk",
+              "sha256": "ebc420afac296b23f45cc05be363411e40580f539a158ffefb46e4ca74f67a5b",
+              "size": 24647
+            }
+          }
+        }
+      }
+    }
   }
 }
