@@ -10,13 +10,13 @@
 
 ## 应用列表
 
-### 全球电台 (global-radio)
+### 全球电台
 
 基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。
 
 - **原作者**: [moli-xia](https://github.com/moli-xia)
 - **原项目**: [global-radio](https://github.com/moli-xia/global-radio)
-- **原项目 Release**: [各平台客户端下载](https://github.com/moli-xia/global-radio/releases)
+- **安装方式**: 在 FnDepot 客户端中搜索「全球电台」或直接添加本源
 
 ---
 

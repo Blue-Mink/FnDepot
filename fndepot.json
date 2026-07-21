@@ -20,6 +20,7 @@
         "音乐"
       ],
       "icon_url": "./global-radio/ICON.PNG",
+      "preview_urls": [],
       "readme_url": "./global-radio/README.md",
       "homepage": "https://github.com/moli-xia/global-radio",
       "repo_url": "https://github.com/Blue-Mink/FnDepot",
@@ -39,7 +40,7 @@
           "os_min_version": "0.0.1",
           "packages": {
             "all": {
-              "download_url": "./global-radio/global-radio.fpk",
+              "download_url": "./global-radio/global-radio_all.fpk",
               "sha256": "ebc420afac296b23f45cc05be363411e40580f539a158ffefb46e4ca74f67a5b",
               "size": 24647
             }
