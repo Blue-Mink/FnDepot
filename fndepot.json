@@ -1,7 +1,7 @@
 {
   "source_info": {
     "name": "Blue-Mink 应用源",
-    "url": "https://github.com/Blue-Mink/FnDepot"
+    "url": "https://github.com/moli-xia/global-radio"
   },
   "apps": {
     "global-radio": {
@@ -11,7 +11,9 @@
       "fpk_version": "1.2.2",
       "release_tag": "v1.2.2",
       "service_port": 32678,
+      "homepage": "https://github.com/moli-xia/global-radio",
       "homepage_url": "https://github.com/moli-xia/global-radio",
+      "readme_url": "https://github.com/moli-xia/global-radio/blob/main/README.md",
       "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/global-radio/ICON.PNG",
       "platforms": ["all"],
       "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
