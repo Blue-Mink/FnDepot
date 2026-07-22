@@ -1,13 +1,3 @@
-# Blue-Mink FnDepot
-
-飞牛私有应用仓库。
-
-## 源信息
-
-- **源 ID**: `com.blue-mink.fndepot`
-- **维护者**: Blue-Mink
-- **更新日期**: 2026-07-22
-
 ## 应用列表
 
 ### 全球电台
