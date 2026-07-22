@@ -12,13 +12,8 @@
     "global-radio": {
       "display_name": "全球电台",
       "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
-      "platform": [
-        "all"
-      ],
-      "categories": [
-        "娱乐",
-        "音乐"
-      ],
+      "platform": ["all"],
+      "categories": ["娱乐", "音乐"],
       "icon_url": "./global-radio/ICON.PNG",
       "preview_urls": [],
       "readme_url": "./global-radio/README.md",
