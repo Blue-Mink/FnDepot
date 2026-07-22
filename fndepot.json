@@ -1,7 +1,7 @@
 {
   "source_info": {
     "name": "Blue-Mink 应用源",
-    "url": "https://github.com/moli-xia/global-radio"
+    "url": "https://github.com/Blue-Mink/FnDepot"
   },
   "apps": {
     "global-radio": {
@@ -25,6 +25,28 @@
       "author": "molixia",
       "author_url": "https://github.com/moli-xia",
       "bug_report_url": "https://github.com/moli-xia/global-radio/issues"
+    },
+    "KmsActivator": {
+      "display_name": "KMS Activator",
+      "desc": "KMS 激活服务，基于 vlmcsd 为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。轻量高效，Web 管理界面一键启停。",
+      "version": "1.0.0",
+      "fpk_version": "1.0.0",
+      "release_tag": "v1.0.0",
+      "service_port": 0,
+      "homepage": "https://github.com/Blue-Mink/FnDepot",
+      "homepage_url": "https://github.com/Blue-Mink/FnDepot",
+      "readme_url": "https://github.com/Blue-Mink/FnDepot/blob/main/KmsActivator/README.md",
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/KmsActivator/ICON.PNG",
+      "platforms": ["all"],
+      "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk",
+      "size": "43.5 KB",
+      "updated_at": "2026-07-22T15:00:00+08:00",
+      "download_count": 0,
+      "app_type": "thirdparty",
+      "category": "工具",
+      "author": "jianyun8023",
+      "author_url": "https://github.com/jianyun8023",
+      "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues"
     }
   }
 }
