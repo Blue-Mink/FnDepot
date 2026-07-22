@@ -22,7 +22,9 @@
       "download_count": 0,
       "app_type": "docker",
       "category": "娱乐",
-      "author": "molixia"
+      "author": "molixia",
+      "author_url": "https://github.com/moli-xia",
+      "bug_report_url": "https://github.com/moli-xia/global-radio/issues"
     }
   }
 }
