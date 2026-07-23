@@ -10,9 +10,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
-    "isdocker": true,
+    "isdocker": "true",
     "install_type": "用户空间",
-    "size": "24.7 KB",
+    "size": "0.02",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
     "changelog": "默认访问端口改为 32678\n应用设置修改端口后同步更新桌面快捷方式端口\n修复 fpk 打包格式问题"
   },
@@ -27,9 +27,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
-    "isdocker": false,
+    "isdocker": "false",
     "install_type": "系统空间",
-    "size": "82.7 KB",
+    "size": "0.08",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk",
     "changelog": "首发版本"
   }
