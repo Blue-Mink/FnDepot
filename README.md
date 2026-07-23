@@ -7,7 +7,7 @@
 - **原作者**: [kci-lnk](https://github.com/kci-lnk)
 - **原项目**: [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo)
 - **官网**: https://fnknock.cn
-- **安装方式**: 在飞牛FnDepot直接添加本源 客户端中搜索「敲门knock」即可安装
+- **安装方式**: 在飞牛FnDepot 直接添加本源 客户端中搜索「敲门knock」即可安装
 - **版本**: v2.0.9
 
 ### 全球电台
@@ -16,7 +16,7 @@
 
 - **原作者**: [moli-xia](https://github.com/moli-xia)
 - **原项目**: [global-radio](https://github.com/moli-xia/global-radio)
-- **安装方式**: 在 FnDepot 客户端中搜索「全球电台」或直接添加本源
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「全球电台 即可安装
 
 ### KMS Activator
 
