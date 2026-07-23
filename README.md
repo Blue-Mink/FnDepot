@@ -16,7 +16,7 @@
 
 - **原作者**: [moli-xia](https://github.com/moli-xia)
 - **原项目**: [global-radio](https://github.com/moli-xia/global-radio)
-- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「全球电台 即可安装
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「全球电台」 即可安装
 
 ### KMS Activator
 
