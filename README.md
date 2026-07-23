@@ -7,9 +7,8 @@
 - **原作者**: [kci-lnk](https://github.com/kci-lnk)
 - **原项目**: [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo)
 - **官网**: https://fnknock.cn
-- **安装方式**: 在 FnDepot 客户端中搜索「敲门knock」或直接添加本源
+- **安装方式**: 在飞牛FnDepot直接添加本源 客户端中搜索「敲门knock」即可安装
 - **版本**: v2.0.9
-- **服务端口**: 7999
 
 ### 全球电台
 
