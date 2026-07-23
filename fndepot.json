@@ -1,89 +1,36 @@
 {
-  "schema_version": "2.0",
-  "source_info": {
-    "id": "com.blue-mink.fndepot",
-    "name": "Blue-Mink 应用源",
-    "author": "Blue-Mink",
-    "homepage": "https://github.com/Blue-Mink",
-    "description": "Blue-Mink 的 FnDepot 第三方应用源，收录全球电台、KMS 激活等实用应用。",
-    "updated_at": "2026-07-23T18:00:00+08:00"
+  "global-radio": {
+    "display_name": "全球电台",
+    "version": "1.2.2",
+    "platform": "all",
+    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
+    "labels": "娱乐",
+    "author": "molixia",
+    "author_url": "https://github.com/moli-xia",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
+    "isdocker": "true",
+    "install_type": "用户空间",
+    "size": "0.02",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
+    "changelog": "默认访问端口改为 32678\n应用设置修改端口后同步更新桌面快捷方式端口\n修复 fpk 打包格式问题"
   },
-  "apps": {
-    "global-radio": {
-      "display_name": "全球电台",
-      "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
-      "platform": [
-        "all"
-      ],
-      "categories": [
-        "娱乐"
-      ],
-      "icon_url": "./global-radio/ICON.PNG",
-      "preview_urls": [],
-      "readme_url": "./global-radio/README.md",
-      "homepage": "https://github.com/moli-xia/global-radio",
-      "repo_url": "https://github.com/Blue-Mink/FnDepot",
-      "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
-      "maintainer": "molixia",
-      "maintainer_url": "https://github.com/moli-xia",
-      "distributor": "Blue-Mink",
-      "distributor_url": "https://github.com/Blue-Mink",
-      "run_as": "package",
-      "install_type": "",
-      "is_docker": true,
-      "service_port": "32678",
-      "releases": {
-        "1.2.2": {
-          "changelog": "默认访问端口改为 32678\n应用设置修改端口后同步更新桌面快捷方式端口\n修复 fpk 打包格式问题",
-          "updated_at": "2026-07-22T03:36:10+08:00",
-          "os_min_version": "",
-          "packages": {
-            "all": {
-              "download_url": "./global-radio/global-radio.fpk",
-              "sha256": "ebc420afac296b23f45cc05be363411e40580f539a158ffefb46e4ca74f67a5b",
-              "size": 24647
-            }
-          }
-        }
-      }
-    },
-    "kms-activator": {
-      "display_name": "KMS Activator",
-      "desc": "基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。Web 管理界面一键启停，自动 IP 检测，内置 GVLK 密钥库。",
-      "platform": [
-        "all"
-      ],
-      "categories": [
-        "系统工具"
-      ],
-      "icon_url": "./kms-activator/ICON.PNG",
-      "preview_urls": [],
-      "readme_url": "./kms-activator/README.md",
-      "homepage": "https://github.com/Blue-Mink/FnDepot",
-      "repo_url": "https://github.com/Blue-Mink/FnDepot",
-      "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
-      "maintainer": "jianyun8023",
-      "maintainer_url": "https://github.com/Blue-Mink",
-      "distributor": "Blue-Mink",
-      "distributor_url": "https://github.com/Blue-Mink",
-      "run_as": "package",
-      "install_type": "",
-      "is_docker": false,
-      "service_port": "11688",
-      "releases": {
-        "1.0.0": {
-          "changelog": "首发版本",
-          "updated_at": "2026-07-22T15:21:26+08:00",
-          "os_min_version": "",
-          "packages": {
-            "all": {
-              "download_url": "./kms-activator/KmsActivator.fpk",
-              "sha256": "2ddca4465768f542b4d2f3348fb1c0c9a50b5dcb094c0b59f23c5d67dc7deae8",
-              "size": 84698
-            }
-          }
-        }
-      }
-    }
+  "kms-activator": {
+    "display_name": "KMS Activator",
+    "version": "1.0.0",
+    "platform": "all",
+    "desc": "基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。Web 管理界面一键启停，自动 IP 检测，内置 GVLK 密钥库。",
+    "labels": "系统工具",
+    "author": "jianyun8023",
+    "author_url": "https://github.com/Blue-Mink",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+    "isdocker": "false",
+    "install_type": "系统空间",
+    "size": "0.08",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk",
+    "changelog": "首发版本"
   }
 }
