@@ -8,7 +8,7 @@
 - **原项目**: [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo)
 - **官网**: https://fnknock.cn
 - **安装方式**: 在飞牛FnDepot 直接添加本源 客户端中搜索「敲门knock」即可安装
-- **版本**: v2.0.9
+- **版本**: v2.0.10（已支持应用内更新，本仓库后续停止维护该版本源）
 
 ### 全球电台
 

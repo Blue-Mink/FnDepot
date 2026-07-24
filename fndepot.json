@@ -35,8 +35,8 @@
   },
   "fn-knock": {
     "display_name": "敲门knock",
-    "version": "2.0.9",
-    "platform": "x86",
+    "version": "2.0.10",
+    "platform": "all",
     "desc": "敲门knock是一款针对飞牛OS的安全防护软件，内置了防火墙控制和反代安全。面向NAS、软路由与家庭服务器的多平台高性能安全网关，采用Rust + Go双核心架构。",
     "labels": "安全，工具",
     "icon_url": "./fn-knock/ICON.PNG",
@@ -48,10 +48,10 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "系统空间",
-    "size": "17.97",
+    "size": "18.9",
     "isdocker": "false",
     "service_port": "7999",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.0.9/fn-knock-2.0.9-fnos-amd64.fpk",
-    "changelog": "修复高级认证配置相关问题\n修复 DDNS 优选地址覆盖问题\n子域管理新增自定义应用图标上传\n完善官网、文档与更新流水线\n侧边栏菜单新增自定义排序"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.0.10/fn-knock-2.0.10-fnos-amd64.fpk",
+    "changelog": "已支持应用内更新（不再依赖此源更新）\n升级至上游 v2.0.10"
   }
 }
