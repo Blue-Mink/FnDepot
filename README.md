@@ -35,6 +35,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 - **原项目**: [liketrek/TREK](https://github.com/liketrek/TREK)
 - **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「TREK」即可安装
 - **版本**: v3.4.1（同步原作者最新版）
+- **默认登录**: `admin@trek.local` / `Admin12345`（登录后请立即修改密码）
 
 ---
 
