@@ -58,7 +58,7 @@
     "display_name": "TREK",
     "version": "3.4.1",
     "platform": "all",
-    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。",
+    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。💡 首次使用 TREK，请运行「docker logs trek」查看默认管理员邮箱和密码。",
     "labels": "工具，娱乐",
     "icon_url": "./trek/ICON.PNG",
     "readme_url": "./trek/README.md",
