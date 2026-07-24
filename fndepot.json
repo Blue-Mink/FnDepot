@@ -56,9 +56,9 @@
   },
   "trek": {
     "display_name": "TREK",
-    "version": "1.1.0",
+    "version": "3.4.1",
     "platform": "all",
-    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目，以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。",
+    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。",
     "labels": "工具，娱乐",
     "icon_url": "./trek/ICON.PNG",
     "readme_url": "./trek/README.md",
@@ -72,7 +72,7 @@
     "size": "0.03",
     "isdocker": "true",
     "service_port": "32679",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.1.0/trek-v1.1.0.fpk",
-    "changelog": "首发 fnOS 版本\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk",
+    "changelog": "版本号同步上游 v3.4.1\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）"
   }
 }

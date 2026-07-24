@@ -17,7 +17,7 @@ TREK 是一款功能全面的自托管旅行规划应用，基于 [liketrek/TREK
 
 ## 版本
 
-**v1.1.0** — 飞牛 OS (fnOS) 适配版
+**v3.4.1** — 飞牛 OS (fnOS) 适配版
 
 - 基于 Docker 镜像 `mauriceboe/trek:latest`
 - 支持安装时自定义访问端口
