@@ -53,5 +53,26 @@
     "service_port": "7999",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.0.10/fn-knock-2.0.10-fnos-amd64.fpk",
     "changelog": "已支持应用内更新（不再依赖此源更新）\n升级至上游 v2.0.10"
+  },
+  "trek": {
+    "display_name": "TREK",
+    "version": "1.1.0",
+    "platform": "all",
+    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目，以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。",
+    "labels": "工具，娱乐",
+    "icon_url": "./trek/ICON.PNG",
+    "readme_url": "./trek/README.md",
+    "homepage": "https://github.com/liketrek/TREK",
+    "bug_report_url": "https://github.com/liketrek/TREK/issues",
+    "author": "liketrek",
+    "author_url": "https://github.com/liketrek",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "install_type": "用户空间",
+    "size": "0.03",
+    "isdocker": "true",
+    "service_port": "32679",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.1.0/trek-v1.1.0.fpk",
+    "changelog": "首发 fnOS 版本\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口"
   }
 }

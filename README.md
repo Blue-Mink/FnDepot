@@ -27,6 +27,15 @@
 - **详细说明**: [kms-activator/README.md](kms-activator/README.md)
 - **版本**: v1.0.0
 
+### TREK
+
+TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记于一体。支持 SSO 登录、PWA 离线访问、MCP 协议扩展。
+
+- **原作者**: [liketrek](https://github.com/liketrek)
+- **原项目**: [liketrek/TREK](https://github.com/liketrek/TREK)
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「TREK」即可安装
+- **版本**: v1.1.0
+
 ---
 
 > 本仓库遵循 [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)
