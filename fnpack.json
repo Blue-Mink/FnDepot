@@ -73,6 +73,6 @@
     "isdocker": "true",
     "service_port": "32679",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk",
-    "changelog": "版本号同步上游 v3.4.1\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）"
+    "changelog": "版本号同步上游 v3.4.1\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）"
   }
 }
