@@ -18,7 +18,6 @@
 
 ---
 
-
 ## 📦 应用列表
 
 ### 🔐 敲门 knock (fn-knock)
@@ -33,7 +32,7 @@
 </div>
 
 | 项目 | 信息 |
-|------|------|
+| :--- | :--- |
 | 👨‍💻 **原作者** | [kci-lnk](https://github.com/kci-lnk) |
 | 📁 **原项目** | [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo) |
 | 🌐 **官网** | https://fnknock.cn |
@@ -54,7 +53,7 @@
 </div>
 
 | 项目 | 信息 |
-|------|------|
+| :--- | :--- |
 | 👨‍💻 **原作者** | [moli-xia](https://github.com/moli-xia) |
 | 📁 **原项目** | [global-radio](https://github.com/moli-xia/global-radio) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「全球电台」即可安装 |
@@ -80,7 +79,7 @@
 - 💻 支持 Windows 10/11 / Office 2013-2016 / Windows Server 2016-2025
 
 | 项目 | 信息 |
-|------|------|
+| :--- | :--- |
 | 📥 **安装方式** | 下载 [KmsActivator.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk) 在 fnOS 应用中心手动安装 |
 | 📖 **详细说明** | [kms-activator/README.md](kms-activator/README.md) |
 | 🏷️ **版本** | v1.0.0 |
@@ -99,7 +98,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 </div>
 
 | 项目 | 信息 |
-|------|------|
+| :--- | :--- |
 | 👨‍💻 **原作者** | [liketrek](https://github.com/liketrek) |
 | 📁 **原项目** | [liketrek/TREK](https://github.com/liketrek/TREK) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「TREK」即可安装 |
