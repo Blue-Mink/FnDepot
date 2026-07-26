@@ -40,7 +40,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ### 冬瓜HAOS (homeassistant)
 
-在 fnOS 系统中创建同架构的 Home Assistant OS 虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机。
+在 fnOS 系统中创建x86架构的 冬瓜HAOS 虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机。
 
 - **基于**: [Home Assistant OS](https://www.home-assistant.io) · [冬瓜HAOS](https://bbs.hassbian.com)
 - **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「冬瓜HAOS」即可安装
