@@ -22,10 +22,14 @@ TREK 是一款功能全面的自托管旅行规划应用，基于 [liketrek/TREK
 - 基于 Docker 镜像 `mauriceboe/trek:latest`
 - 支持安装时自定义访问端口
 - 支持应用设置中修改端口
+- 🔧 已修复 HTTP 下 Cookie Secure 导致登录失败（`COOKIE_SECURE=false`）
+- 🔑 预制默认管理员账号：`admin@trek.local` / `Admin12345`
 
 ## 安装方式
 
 在 飞牛FnDepot 直接添加本源，客户端中搜索「TREK」即可安装
+
+> ⚠️ 首次登录请使用默认账号 `admin@trek.local` / `Admin12345`，登录后请立即修改密码。
 
 ## 原作者
 

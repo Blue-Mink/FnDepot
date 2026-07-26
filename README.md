@@ -15,8 +15,29 @@
 [🔗 添加本源](https://github.com/Blue-Mink/FnDepot) · [📖 使用文档](https://github.com/EWEDLCM/FnDepot) · [🐛 问题反馈](https://github.com/Blue-Mink/FnDepot/issues)
 
 </div>
+- **原作者**: [moli-xia](https://github.com/moli-xia)
+- **原项目**: [global-radio](https://github.com/moli-xia/global-radio)
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「全球电台」 即可安装
 
----
+### KMS Activator
+
+基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。
+
+- **功能特点**: Web 管理界面一键启停 · 自动 IP 检测 · 内置 GVLK 密钥库 · 支持 Windows 10/11 / Office 2013-2016 / Windows Server 2016-2025
+- **安装方式**: 下载 [KmsActivator.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk) 在 fnOS 应用中心手动安装
+- **详细说明**: [kms-activator/README.md](kms-activator/README.md)
+- **版本**: v1.0.0
+
+### TREK
+
+TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记于一体。支持 SSO 登录、PWA 离线访问、MCP 协议扩展。
+
+- **原作者**: [liketrek](https://github.com/liketrek)
+- **原项目**: [liketrek/TREK](https://github.com/liketrek/TREK)
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「TREK」即可安装
+- **版本**: v3.4.1（同步原作者最新版）
+- **默认登录**: admin@trek.local / Admin12345（登录后请立即修改密码）
+
 
 ## 📦 应用列表
 
@@ -146,6 +167,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 **📱 手机客户端**
 - 📲 [Google Play 下载 Home Assistant Companion](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android)
 - 📦 [直接下载 APK (v2.2.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/Home.Assistant.apk)
+- 📦 [直接下载 APK (v2.2.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/Home.Assistant.apk)
 
 </details>
 
@@ -202,3 +224,16 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 Made with ❤️ by [Blue-Mink](https://github.com/Blue-Mink)
 
 </div>
+### 冬瓜HAOS (homeassistant)
+
+在 fnOS 系统中创建x86架构的 冬瓜HAOS 虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机。
+
+- **基于**: [Home Assistant OS](https://www.home-assistant.io) · [冬瓜HAOS](https://bbs.hassbian.com)
+- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「冬瓜HAOS」即可安装
+- **版本**: v2.2.0
+- **访问方式**: 
+  - Home Assistant Web UI: `http://虚拟机IP:8123`
+  - 冬瓜HAOS 伴侣: `http://虚拟机IP:8124`
+    
+    
+> 本仓库遵循 [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)

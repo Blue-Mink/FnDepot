@@ -58,7 +58,7 @@
     "display_name": "TREK",
     "version": "3.4.1",
     "platform": "all",
-    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。💡 首次使用 TREK，请运行「docker logs trek」查看默认管理员邮箱和密码。",
+    "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。首次登录账号：admin@trek.local / Admin12345，登录后请立即修改初始密码。",
     "labels": "工具，娱乐",
     "icon_url": "./trek/ICON.PNG",
     "readme_url": "./trek/README.md",
@@ -73,6 +73,27 @@
     "isdocker": "true",
     "service_port": "32679",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk",
-    "changelog": "版本号同步上游 v3.4.1\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）"
+    "changelog": "版本号同步上游 v3.4.1\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）\n修复 HTTP 下 Cookie Secure 导致登录失败（COOKIE_SECURE=false）\n预制默认管理员账号 admin@trek.local / Admin12345"
+  },
+  "homeassistant": {
+    "display_name": "冬瓜HAOS",
+    "version": "2.2.0",
+    "platform": "all",
+    "desc": "在 fnOS 系统中创建x86架构的 冬瓜HAOS 虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，通过 http://虚拟机IP:8123 访问 Home Assistant Web UI。通过 http://虚拟机IP:8124 访问冬瓜HAOS伴侣。",
+    "labels": "智能家居，系统工具",
+    "icon_url": "./homeassistant/ICON.PNG",
+    "readme_url": "./homeassistant/README.md",
+    "homepage": "https://www.home-assistant.io",
+    "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+    "author": "冬瓜HA",
+    "author_url": "https://bbs.hassbian.com",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "install_type": "系统空间",
+    "size": "0.03",
+    "isdocker": "false",
+    "service_port": "8123",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/homeassistant.fpk",
+    "changelog": "首发版本 v2.2.0\n基于 libvirt KVM 创建冬瓜HAOS 虚拟机"
   }
 }
