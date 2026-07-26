@@ -94,6 +94,6 @@
     "isdocker": "false",
     "service_port": "8123",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/homeassistant.fpk",
-    "changelog": "首发版本 v2.2.0\n基于 libvirt KVM 创建冬瓜HAOS 虚拟机\n自动修复：磁盘 0MB（注册到 vol1 存储池）\n自动修复：VM 元数据显示（名称/系统类型/版本/磁盘）\n自动修复：VNC Unix socket（Web VNC 代理兼容）\n图标：Home Assistant 官方 Logo\n发布者：Blue-Mink"
+    "changelog": "首发版本 v2.2.0\n基于 libvirt KVM 创建冬瓜HAOS 虚拟机"
   }
 }
