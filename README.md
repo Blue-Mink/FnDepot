@@ -38,7 +38,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 - **版本**: v3.4.1（同步原作者最新版）
 - **默认登录**: admin@trek.local / Admin12345（登录后请立即修改密码）
 
-
 ## 📦 应用列表
 
 ### 🔐 敲门 knock (fn-knock)
@@ -127,49 +126,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
-## 🏠 Home Assistant
-
-<details>
-<summary>🖥️ 点击查看 Home Assistant 虚拟机应用详情</summary>
-
-### 冬瓜 HAOS Companion
-
-在 fnOS 系统中创建 x86 架构的 Home Assistant OS 虚拟机，享受 KVM 硬件加速性能，轻松搭建智能家居中心。
-
-<div align="center">
-
-[![HAOS](https://img.shields.io/badge/HAOS-v2.3.0-41bdf5?style=flat-square)](https://github.com/Blue-Mink/FnDepot/tree/main/homeassistant)
-[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
-
-</div>
-
-| 项目 | 信息 |
-|------|------|
-| 📦 **安装方式** | 下载 `com.dongguaha.vm.fpk` 在 fnOS 应用中心手动安装 |
-| 🚀 **访问地址** | 安装后通过 `http://虚拟机IP:8123` 访问 Home Assistant |
-| 🔧 **管理地址** | 通过 `http://虚拟机IP:8124` 访问 HAOS 伴侣 |
-| 📖 **详细说明** | [homeassistant/README.md](homeassistant/README.md) |
-| 🏷️ **版本** | v2.3.0 |
-
-**📋 系统要求**
-- CPU: 2核
-- 内存: 2GB
-- 磁盘: 32GB
-- 架构: x86_64
-
-**✨ 特性**
-- ✅ KVM 硬件加速
-- ✅ 自动创建虚拟机
-- ✅ 预装 Home Assistant OS
-- ✅ 开机自启支持
-- ✅ 双图标入口（HA + 控制台）
-
-**📱 手机客户端**
-- 📲 [Google Play 下载 Home Assistant Companion](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android)
-- 📦 [直接下载 APK (v2.3.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.0/Home.Assistant.apk)
-
-</details>
-
 ---
 
 ## 📖 使用指南
@@ -223,16 +179,3 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 Made with ❤️ by [Blue-Mink](https://github.com/Blue-Mink)
 
 </div>
-### 冬瓜HAOS (homeassistant)
-
-在 fnOS 系统中创建x86架构的 冬瓜HAOS 虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机。
-
-- **基于**: [Home Assistant OS](https://www.home-assistant.io) · [冬瓜HAOS](https://bbs.hassbian.com)
-- **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「冬瓜HAOS」即可安装
-- **版本**: v2.3.0
-- **访问方式**: 
-  - Home Assistant Web UI: `http://虚拟机IP:8123`
-  - 冬瓜HAOS 伴侣: `http://虚拟机IP:8124`
-    
-    
-> 本仓库遵循 [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)
