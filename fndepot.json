@@ -74,5 +74,22 @@
         "service_port": "32679",
         "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk",
         "changelog": "版本号同步上游 v3.4.1\n发布者/开发者信息更新为 liketrek\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）\n修复 HTTP 下 Cookie Secure 导致登录失败（COOKIE_SECURE=false）\n预制默认管理员账号 admin@trek.local / Admin12345"
+    },
+    "dongguaha": {
+        "display_name": "冬瓜HAOS",
+        "version": "18.0",
+        "platform": "all",
+        "desc": "在x86 fnos系统中创建同架构的 冬瓜HAOS 虚拟机，享受KVM硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，VNC中查看虚拟机IP，通过http://虚拟机IP：8123访问 Home Assistant Web UI。通过 http://虚拟机IP:8124访问 冬瓜HAOS伴侣。",
+        "labels": "工具",
+        "author": "Blue-Mink",
+        "author_url": "https://github.com/Blue-Mink",
+        "distributor": "Blue-Mink",
+        "distributor_url": "https://github.com/Blue-Mink",
+        "bug_report_url": "https://github.com/Blue-Mink/fnos-vm-dongguaha/issues",
+        "isdocker": "false",
+        "install_type": "系统空间",
+        "size": "0.03",
+        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk",
+        "changelog": "首发版本"
     }
 }
