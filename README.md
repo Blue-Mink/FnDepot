@@ -166,8 +166,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 **📱 手机客户端**
 - 📲 [Google Play 下载 Home Assistant Companion](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android)
-- 📦 [直接下载 APK (v2.2.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/Home.Assistant.apk)
-- 📦 [直接下载 APK (v2.2.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.2.0/Home.Assistant.apk)
+- 📦 [直接下载 APK (v2.3.0)](https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.0/Home.Assistant.apk)
 
 </details>
 
@@ -230,7 +229,7 @@ Made with ❤️ by [Blue-Mink](https://github.com/Blue-Mink)
 
 - **基于**: [Home Assistant OS](https://www.home-assistant.io) · [冬瓜HAOS](https://bbs.hassbian.com)
 - **安装方式**: 在 飞牛FnDepot 直接添加本源 客户端中搜索「冬瓜HAOS」即可安装
-- **版本**: v2.2.0
+- **版本**: v2.3.0
 - **访问方式**: 
   - Home Assistant Web UI: `http://虚拟机IP:8123`
   - 冬瓜HAOS 伴侣: `http://虚拟机IP:8124`
