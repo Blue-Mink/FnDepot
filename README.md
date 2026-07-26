@@ -106,9 +106,7 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
-## 📖 使用指南
-
-### 添加应用源
+## 添加应用源
 
 1. 打开飞牛 NAS 应用中心
 2. 点击右上角 **设置** ⚙️
@@ -122,18 +120,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 2. 点击应用图标进入详情页
 3. 点击 **安装** 按钮
 4. 等待安装完成即可使用
-
----
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
 
 ---
 
