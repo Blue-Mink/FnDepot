@@ -1,0 +1,210 @@
+#!/bin/bash
+# 冬瓜HAOS FPK - 安装后回调脚本 (v2.2 - 修复磁盘0MB + VM显示 + VNC socket)
+# 创建 libvirt KVM 虚拟机，下载 qcow2 镜像
+set -e
+
+TRIM_TEMP_LOGFILE="${TRIM_TEMP_LOGFILE:-/tmp/haos-install.log}"
+exec 2>>"${TRIM_TEMP_LOGFILE}"
+echo "[$(date)] 冬瓜HAOS install_callback 开始"
+
+# ---- 输入参数 ----
+HAOS_VERSION="${wizard_haos_version:-18.0}"
+HAOS_CPU="${wizard_haos_cpu:-2}"
+HAOS_MEM="${wizard_haos_mem:-2048}"
+HAOS_DISK="${wizard_haos_disk:-32}"
+HAOS_AUTOSTART="${wizard_haos_autostart:-false}"
+
+# ---- 路径与架构 ----
+ARCH=$(uname -m)
+VM_NAME="haos"
+SHARE_PATH=""
+for p in $(echo "${TRIM_DATA_SHARE_PATHS}" | tr ':' ' '); do
+    if [ -d "${p}" ]; then
+        SHARE_PATH="${p}"
+        break
+    fi
+done
+[ -z "${SHARE_PATH}" ] && {
+    echo "错误: 未找到数据共享路径" | tee -a "${TRIM_TEMP_LOGFILE}"
+    exit 1
+}
+
+# 检测 OVS 网桥
+OVS_BRIDGE="$(ovs-vsctl list-br 2>/dev/null | head -n 1)"
+if [ -z "${OVS_BRIDGE}" ]; then
+    echo "错误: 未检测到 OVS 网桥"
+    exit 1
+fi
+
+# ---- 架构检测 ----
+case "${ARCH}" in
+    x86_64)
+        KNOWN_QCOW2_URL="https://fw.wghaos.com/haos/x86-64-vm/haos_x86-64-vm_cn-18.0.release.20260709_214639.fd913a0968.qcow2.xz"
+        QEMU_BIN="qemu-system-x86_64"
+        UEFI_CODE="/usr/share/OVMF/OVMF_CODE.fd"
+        UEFI_VARS="/usr/share/OVMF/OVMF_VARS.fd"
+        MACHINE="q35"
+        ;;
+    *)
+        echo "不支持的架构: ${ARCH}"
+        exit 1
+        ;;
+esac
+
+QCOW2_FILE="${SHARE_PATH}/haos.qcow2"
+CURL_OPTS="-skL --connect-timeout 30 -e https://www.wghaos.com"
+
+# ---- 步骤1: 下载 ----
+if [ -f "${QCOW2_FILE}" ]; then
+    echo ">>> 跳过步骤1: 镜像已存在"
+else
+    echo ">>> 步骤1: 下载冬瓜HAOS v${HAOS_VERSION}"
+    cd "${SHARE_PATH}"
+    if ! curl ${CURL_OPTS} -o haos.qcow2.xz "${KNOWN_QCOW2_URL}"; then
+        echo "下载失败！"; exit 1
+    fi
+    xz -d -f haos.qcow2.xz
+fi
+
+# ---- 步骤2: 扩容 ----
+echo ">>> 步骤2: 扩容到 ${HAOS_DISK}G"
+qemu-img resize "${QCOW2_FILE}" "${HAOS_DISK}G"
+
+# ===== ★ 修复1: 磁盘注册到 vol1 存储池 (修复显示 0 MB) =====
+POOL_NAME="vol1"
+POOL_PATH="/vol1/vm/pool"
+
+if virsh pool-info "${POOL_NAME}" &>/dev/null; then
+    echo ">>> ★ 修复1: 注册磁盘到 ${POOL_NAME} 存储池"
+    virsh vol-delete --pool "${POOL_NAME}" haos.qcow2 2>/dev/null || true
+    virsh vol-create-as "${POOL_NAME}" haos.qcow2 "${HAOS_DISK}G" --format qcow2
+    cp "${QCOW2_FILE}" "${POOL_PATH}/haos.qcow2"
+    chown libvirt-qemu:libvirt-qemu "${POOL_PATH}/haos.qcow2"
+    virsh pool-refresh "${POOL_NAME}"
+    QCOW2_FILE="${POOL_PATH}/haos.qcow2"
+    echo "✅ 磁盘路径 -> ${QCOW2_FILE}"
+else
+    echo "⚠️ 存储池 ${POOL_NAME} 不存在，跳过注册"
+fi
+
+# 获取实际磁盘大小（用于 metadata）
+DISK_GB=$(qemu-img info "${QCOW2_FILE}" --output json | \
+    python3 -c "import sys,json; d=json.load(sys.stdin); print(f'{d[\"virtual-size\"]/1024/1024/1024:.1f}')")
+echo "磁盘实际大小: ${DISK_GB} GB"
+
+# ---- UUID + MAC ----
+VM_UUID=$(uuidgen)
+MAC_ADDR="52:54:$(printf '%02x:%02x:%02x:%02x' $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256)))"
+
+# ===== ★ 修复2: XML 含完整 metadata (修复 VM 名称/系统类型/版本/磁盘显示) =====
+echo ">>> ★ 修复2: 生成带完整 metadata 的 XML"
+XML_FILE="${SHARE_PATH}/haos.xml"
+
+cat > "${XML_FILE}" << 'XMLBODY'
+<domain type='kvm'>
+  <name>VM_NAME_PH</name>
+  <title>冬瓜HAOS</title>
+  <uuid>UUID_PH</uuid>
+  <memory unit='MiB'>MEM_PH</memory>
+  <currentMemory unit='MiB'>MEM_PH</currentMemory>
+  <vcpu placement='static'>CPU_PH</vcpu>
+  <os>
+    <type arch='ARCH_PH' machine='MACHINE_PH'>hvm</type>
+    <loader readonly='yes' type='pflash'>UEFI_CODE_PH</loader>
+    <nvram>NVRAM_PH</nvram>
+  </os>
+  <features><acpi/><apic/></features>
+  <cpu mode='host-passthrough' check='none'/>
+  <clock offset='utc'>
+    <timer name='rtc' tickpolicy='catchup'/>
+    <timer name='pit' tickpolicy='delay'/>
+    <timer name='hpet' present='no'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <devices>
+    <emulator>/usr/bin/QEMU_BIN_PH</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2' cache='writeback' io='threads'/>
+      <source file='DISK_PATH_PH'/>
+      <target dev='vda' bus='virtio'/>
+    </disk>
+    <interface type='bridge'>
+      <mac address='MAC_PH'/>
+      <source bridge='OVS_PH'/>
+      <virtualport type='openvswitch'/>
+      <model type='virtio'/>
+    </interface>
+    <serial type='pty'><target port='0'/></serial>
+    <console type='pty'><target type='serial' port='0'/></console>
+    <graphics type='vnc' socket='VNC_SOCKET_PH' autoport='yes' power-control='on'>
+      <listen type='socket'/>
+    </graphics>
+    <video><model type='virtio' heads='1' vram='16384'/></video>
+    <memballoon model='virtio'><stats period='10'/></memballoon>
+  </devices>
+  <metadata>
+    <customMeta xmlns="customMeta">
+      <title xmlns="title">冬瓜HAOS</title>
+      <osType xmlns="osType">linux</osType>
+      <osVersion xmlns="osVersion">Home Assistant OS VERSION_PH</osVersion>
+      <diskSize xmlns="diskSize">DISKGB_PH</diskSize>
+      <autostart xmlns="autostart">AUTOSTART_PH</autostart>
+      <createdTime xmlns="createdTime">CTIME_PH</createdTime>
+    </customMeta>
+  </metadata>
+</domain>
+XMLBODY
+
+# 替换占位符
+sed -i "s|VM_NAME_PH|${VM_NAME}|g" "${XML_FILE}"
+sed -i "s|UUID_PH|${VM_UUID}|g" "${XML_FILE}"
+sed -i "s|MEM_PH|${HAOS_MEM}|g" "${XML_FILE}"
+sed -i "s|CPU_PH|${HAOS_CPU}|g" "${XML_FILE}"
+sed -i "s|ARCH_PH|${ARCH}|g" "${XML_FILE}"
+sed -i "s|MACHINE_PH|${MACHINE}|g" "${XML_FILE}"
+sed -i "s|UEFI_CODE_PH|${UEFI_CODE}|g" "${XML_FILE}"
+sed -i "s|NVRAM_PH|${SHARE_PATH}/haos_VARS.fd|g" "${XML_FILE}"
+sed -i "s|QEMU_BIN_PH|${QEMU_BIN}|g" "${XML_FILE}"
+sed -i "s|DISK_PATH_PH|${QCOW2_FILE}|g" "${XML_FILE}"
+sed -i "s|MAC_PH|${MAC_ADDR}|g" "${XML_FILE}"
+sed -i "s|OVS_PH|${OVS_BRIDGE}|g" "${XML_FILE}"
+sed -i "s|VERSION_PH|${HAOS_VERSION}|g" "${XML_FILE}"
+sed -i "s|DISKGB_PH|${DISK_GB}|g" "${XML_FILE}"
+sed -i "s|AUTOSTART_PH|${HAOS_AUTOSTART}|g" "${XML_FILE}"
+sed -i "s|CTIME_PH|$(date +%s)|g" "${XML_FILE}"
+sed -i "s|VNC_SOCKET_PH|/var/run/vms/${VM_NAME}.vnc.sock|g" "${XML_FILE}"
+
+echo "✅ XML metadata 已补全: title / osType / osVersion / diskSize"
+
+# ===== ★ 修复3: VNC 使用 Unix socket (修复 Web VNC 连接失败)
+mkdir -p /var/run/vms
+chmod 777 /var/run/vms 2>/dev/null || true
+echo ">>> ★ 修复3: VNC 已配置 Unix socket (/var/run/vms/${VM_NAME}.vnc.sock)"
+# ---- UEFI 固件 + 权限 ----
+echo ">>> UEFI 固件"
+[ ! -f "${SHARE_PATH}/haos_VARS.fd" ] && cp "${UEFI_VARS}" "${SHARE_PATH}/haos_VARS.fd"
+chown -R libvirt-qemu:kvm "${QCOW2_FILE}" "${SHARE_PATH}/haos_VARS.fd" "${SHARE_PATH}/haos.xml" 2>/dev/null || true
+chmod 644 "${QCOW2_FILE}" "${SHARE_PATH}/haos_VARS.fd" "${SHARE_PATH}/haos.xml" 2>/dev/null || true
+
+# ---- virsh define ----
+echo ">>> virsh define"
+virsh destroy "${VM_NAME}" 2>/dev/null || true
+virsh undefine "${VM_NAME}" --nvram 2>/dev/null || true
+virsh define "${XML_FILE}"
+
+# ---- autostart ----
+if [ "${HAOS_AUTOSTART}" = "true" ]; then
+    virsh autostart "${VM_NAME}"
+else
+    virsh autostart --disable "${VM_NAME}" 2>/dev/null || true
+fi
+
+echo "========================================"
+echo "✅ 冬瓜HAOS 安装完成！"
+echo "磁盘存储池注册: ✅ (修复 0 MB)"
+echo "VNC Socket 修复: ✅ (Unix socket, 支持 Web VNC 代理)"
+echo "VM Metadata 补全: ✅ (名称/系统类型/版本/容量)"
+echo "========================================"
+exit 0

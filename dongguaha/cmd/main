@@ -1,0 +1,17 @@
+#!/bin/bash
+# 状态代理 - 委托给 trim.vm
+VM_NAME="haos"
+case $1 in
+    start|stop)
+        echo "请在「虚拟机」应用中操作"
+        exit 0
+        ;;
+    status)
+        if virsh domstate "${VM_NAME}" 2>/dev/null | grep -q running; then
+            exit 0
+        else
+            exit 3
+        fi
+        ;;
+    *) exit 1 ;;
+esac

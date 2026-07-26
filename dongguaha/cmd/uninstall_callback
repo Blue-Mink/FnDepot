@@ -1,0 +1,31 @@
+#!/bin/bash
+# 冬瓜HAOS FPK - 卸载后回调
+# 停止并删除虚拟机，根据用户选择处理数据
+
+echo ">>> 卸载冬瓜HAOS 虚拟机..."
+
+# 停止并删除 libvirt 域
+virsh -c qemu:///system destroy haos 2>/dev/null || true
+virsh -c qemu:///system undefine haos --nvram 2>/dev/null || true
+
+# 根据用户选择处理数据
+if [ "${wizard_data_action:-}" == "delete" ]; then
+    echo ">>> 删除数据..."
+    rm -rf "${TRIM_PKGVAR}" 2>/dev/null || true
+    if [ -n "${TRIM_DATA_SHARE_PATHS}" ]; then
+        while IFS=':' read -ra PATHS; do
+            for p in "${PATHS[@]}"; do
+                [ -n "${p}" ] && rm -rf "${p}/haos.qcow2" "${p}/haos.xml" "${p}/haos_VARS.fd" 2>/dev/null || true
+            done
+        done <<<"${TRIM_DATA_SHARE_PATHS}"
+    fi
+    echo "所有数据已删除。"
+else
+    echo "数据已保留。如需完全删除，请手动清理:"
+    echo "  rm -f ${TRIM_DATA_SHARE_PATHS}/haos.qcow2"
+    echo "  rm -f ${TRIM_DATA_SHARE_PATHS}/haos.xml"
+    echo "  rm -f ${TRIM_DATA_SHARE_PATHS}/haos_VARS.fd"
+fi
+
+echo "卸载完成。"
+exit 0

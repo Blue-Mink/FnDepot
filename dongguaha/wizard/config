@@ -1,0 +1,24 @@
+[
+  {
+    "stepTitle": "配置更新",
+    "items": [
+      {
+        "type": "radio",
+        "field": "wizard_haos_autostart",
+        "label": "是否开机自启",
+        "initValue": "false",
+        "options": [
+          {
+            "label": "是",
+            "value": "true"
+          },
+          {
+            "label": "否",
+            "value": "false"
+          }
+        ],
+        "helpText": "是否跟随 fnOS 系统启动自动运行 HAOS 虚拟机"
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "stepTitle": "基本配置",
+    "items": [
+      {
+        "type": "text",
+        "field": "wizard_haos_cpu",
+        "label": "CPU 核心数",
+        "initValue": "2",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 CPU 核心数"
+          },
+          {
+            "pattern": "^([1-9]|1[0-6])$",
+            "message": "CPU 核心数必须在 1 到 16 之间"
+          }
+        ],
+        "helpText": "分配给虚拟机的 CPU 核心数（1-16）"
+      },
+      {
+        "type": "text",
+        "field": "wizard_haos_mem",
+        "label": "内存大小（MB）",
+        "initValue": "2048",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入内存大小"
+          },
+          {
+            "pattern": "^([1-9][0-9]{3,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|655[0-2][0-9]|6553[0-6])$",
+            "message": "内存大小（MB）必须在 1024 到 65536 之间"
+          }
+        ],
+        "helpText": "分配给虚拟机的内存大小（MB），建议 2048 或以上"
+      },
+      {
+        "type": "text",
+        "field": "wizard_haos_disk",
+        "label": "磁盘大小（GB）",
+        "initValue": "32",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入磁盘大小"
+          },
+          {
+            "pattern": "^(1[6-9]|[2-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-6])$",
+            "message": "磁盘大小（GB）必须在 16 到 256 之间"
+          }
+        ],
+        "helpText": "扩容后的总磁盘大小（GB），初始镜像约 8GB"
+      },
+      {
+        "type": "text",
+        "field": "wizard_haos_version",
+        "label": "HAOS 版本",
+        "initValue": "18.0",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 HAOS 版本号"
+          }
+        ],
+        "helpText": "冬瓜HAOS 版本号，如 18.0、17.2 等"
+      },
+      {
+        "type": "radio",
+        "field": "wizard_haos_autostart",
+        "label": "是否开机自启",
+        "initValue": "false",
+        "options": [
+          {
+            "label": "是",
+            "value": "true"
+          },
+          {
+            "label": "否",
+            "value": "false"
+          }
+        ],
+        "helpText": "是否跟随 fnOS 系统启动自动运行 HAOS 虚拟机"
+      }
+    ]
+  }
+]

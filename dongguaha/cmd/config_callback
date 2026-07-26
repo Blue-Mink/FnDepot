@@ -1,0 +1,17 @@
+#!/bin/bash
+# 冬瓜HAOS FPK - 配置后回调
+# 更新 autostart 设置
+
+HAOS_AUTOSTART="${wizard_haos_autostart:-false}"
+
+if [ "${HAOS_AUTOSTART}" = "true" ] || [ "${HAOS_AUTOSTART}" = "1" ]; then
+    echo ">>> 设置开机自启..."
+    virsh -c qemu:///system autostart haos
+    echo "冬瓜HAOS 已设为开机自启。"
+else
+    echo ">>> 关闭开机自启..."
+    virsh -c qemu:///system autostart --disable haos
+    echo "冬瓜HAOS 开机自启已关闭。"
+fi
+
+exit 0

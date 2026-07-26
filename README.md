@@ -107,6 +107,27 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🏠 冬瓜HAOS (dongguaha)
+
+在 x86 fnOS 系统中创建同架构的冬瓜HAOS虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，VNC中查看虚拟机IP，通过 `http://虚拟机IP:8123` 访问 Home Assistant Web UI，通过 `http://虚拟机IP:8124` 访问冬瓜HAOS伴侣。
+
+<div align="center">
+
+[![冬瓜HAOS](https://img.shields.io/badge/冬瓜HAOS-v18.0-green?style=flat-square)](https://github.com/Blue-Mink/fnos-vm-dongguaha)
+[![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **原项目** | [fnos-vm-dongguaha](https://github.com/Blue-Mink/fnos-vm-dongguaha) |
+| 📥 **安装方式** | 下载 [com.dongguaha.vm-18.0-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v18.0 |
+| 📱 **手机端** | [Android APK](https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/Home-Assistant.apk) · [Google Play](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android) · [iOS](https://apps.apple.com/cn/app/home-assistant/id1099568401) |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。

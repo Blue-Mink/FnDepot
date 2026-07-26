@@ -1,0 +1,16 @@
+appname               = com.dongguaha.vm
+version               = 18.0
+display_name          = 冬瓜HAOS
+desc                  = 在x86 fnos系统中创建同架构的 冬瓜HAOS 虚拟机，享受KVM硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，VNC中查看虚拟机IP，通过http://虚拟机IP：8123访问 Home Assistant Web UI。通过 http://虚拟机IP:8124访问 冬瓜HAOS伴侣。
+arch                  = x86_64
+platform              = all
+source                = thirdparty
+maintainer            = 冬瓜HA
+maintainer_url        = https://bbs.hassbian.com
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink/FnDepot
+ctl_stop              = false
+install_dep_apps      = trim.vm
+desktop_uidir         = ui
+desktop_applaunchname = com.dongguaha.vm.ha
+checksum              = 00000000000000000000000000000000

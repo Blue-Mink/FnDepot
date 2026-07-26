@@ -1,0 +1,8 @@
+#!/bin/bash
+# 冬瓜HAOS FPK - 卸载前检查
+# 先停止虚拟机
+
+echo ">>> 卸载前: 停止虚拟机..."
+virsh -c qemu:///system destroy haos 2>/dev/null || true
+echo "虚拟机已停止。"
+exit 0
