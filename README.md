@@ -37,9 +37,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 - **版本**: v3.4.1（同步原作者最新版）
 - **默认登录**: admin@trek.local / Admin12345（登录后请立即修改密码）
 
----
-
-> 本仓库遵循 [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)
 
 ### 冬瓜HAOS (homeassistant)
 
@@ -51,4 +48,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 - **访问方式**: 
   - Home Assistant Web UI: `http://虚拟机IP:8123`
   - 冬瓜HAOS 伴侣: `http://虚拟机IP:8124`
-- **自动修复**: 磁盘 0MB · VM 元数据显示 · VNC Unix socket
+    
+    
+> 本仓库遵循 [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)
