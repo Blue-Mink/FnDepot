@@ -127,7 +127,7 @@
     "author_url": "https://github.com/QuantumNous",
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
-    "install_type": "系统空间",
+    "install_type": "用户空间",
     "size": "0.05",
     "isdocker": "true",
     "service_port": "33000",
