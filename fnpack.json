@@ -10,11 +10,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
-    "isdocker": "true",
     "install_type": "用户空间",
     "size": "0.02",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
-    "changelog": "默认访问端口改为 32678\n应用设置修改端口后同步更新桌面快捷方式端口\n修复 fpk 打包格式问题"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk"
   },
   "kms-activator": {
     "display_name": "KMS Activator",
@@ -27,11 +25,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
-    "isdocker": "false",
     "install_type": "系统空间",
     "size": "0.08",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk",
-    "changelog": "首发版本"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk"
   },
   "fn-knock": {
     "display_name": "敲门knock",
@@ -39,9 +35,6 @@
     "platform": "all",
     "desc": "敲门knock是一款针对飞牛OS的安全防护软件，内置了防火墙控制和反代安全。面向NAS、软路由与家庭服务器的多平台高性能安全网关，采用Rust + Go双核心架构。",
     "labels": "安全，工具",
-    "icon_url": "./fn-knock/ICON.PNG",
-    "readme_url": "./fn-knock/README.md",
-    "homepage": "https://github.com/kci-lnk/fn-knock-turborepo",
     "bug_report_url": "https://github.com/kci-lnk/fn-knock-turborepo/issues",
     "author": "kci-lnk",
     "author_url": "https://github.com/kci-lnk",
@@ -49,10 +42,7 @@
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "系统空间",
     "size": "18.9",
-    "isdocker": "false",
-    "service_port": "7999",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.0.10/fn-knock-2.0.10-fnos-amd64.fpk",
-    "changelog": "已支持应用内更新（不再依赖此源更新）\n升级至上游 v2.0.10"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.0.10/fn-knock-2.0.10-fnos-amd64.fpk"
   },
   "trek": {
     "display_name": "TREK",
@@ -60,9 +50,6 @@
     "platform": "all",
     "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v3.4.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。愿你的每一次旅程，都尽在掌握。首次登录账号：admin@trek.local / Admin12345，登录后请立即修改初始密码。",
     "labels": "工具，娱乐",
-    "icon_url": "./trek/ICON.PNG",
-    "readme_url": "./trek/README.md",
-    "homepage": "https://github.com/liketrek/TREK",
     "bug_report_url": "https://github.com/liketrek/TREK/issues",
     "author": "liketrek",
     "author_url": "https://github.com/liketrek",
@@ -70,10 +57,7 @@
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
     "size": "0.03",
-    "isdocker": "true",
-    "service_port": "32679",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk",
-    "changelog": "版本号同步上游 v3.4.1\n应用介绍全面更新\n修复 Docker volume 挂载路径问题\n安装时支持自定义端口（通过 -e env 参数）\n修复 HTTP 下 Cookie Secure 导致登录失败（COOKIE_SECURE=false）\n预制默认管理员账号 admin@trek.local / Admin12345"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.4.1/trek-v3.4.1.fpk"
   },
   "dongguaha": {
     "display_name": "冬瓜HAOS",
@@ -86,11 +70,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/Blue-Mink/fnos-vm-dongguaha/issues",
-    "isdocker": "false",
     "install_type": "系统空间",
     "size": "0.03",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk",
-    "changelog": "首发版本"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk"
   },
   "daidai-panel": {
     "display_name": "呆呆面板",
@@ -103,11 +85,9 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
-    "isdocker": "false",
     "install_type": "用户空间",
     "size": "13.2",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk",
-    "changelog": "首发版本"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk"
   },
   "new-api": {
     "display_name": "New API",
@@ -115,9 +95,6 @@
     "platform": "all",
     "desc": "新一代大模型网关与AI资产管理系统——聚合40+模型供应商，统一OpenAI兼容接口，支持智能路由、权限管理、用量统计与成本核算。",
     "labels": "工具，开发",
-    "icon_url": "./new-api/ICON.PNG",
-    "readme_url": "./new-api/README.md",
-    "homepage": "https://github.com/QuantumNous/new-api",
     "bug_report_url": "https://github.com/QuantumNous/new-api/issues",
     "author": "QuantumNous",
     "author_url": "https://github.com/QuantumNous",
@@ -125,9 +102,6 @@
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
     "size": "0.05",
-    "isdocker": "true",
-    "service_port": "33000",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk",
-    "changelog": "首发 fnOS 版本\nv1.0.0-rc.22（与原项目版本一致）\n基于 calciumion/new-api:latest 镜像\n安装时支持自定义端口（向导配置）\n图标正常显示\n支持卸载清理"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk"
   }
 }
