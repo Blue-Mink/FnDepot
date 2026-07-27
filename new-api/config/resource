@@ -1,0 +1,30 @@
+{
+    "docker-project": {
+        "projects": [
+            {
+                "name": "new-api",
+                "path": "docker"
+            }
+        ]
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "new-api",
+                "permission": {
+                    "rw": [
+                        "docker-new-api"
+                    ]
+                }
+            },
+            {
+                "name": "new-api/data",
+                "permission": {
+                    "rw": [
+                        "docker-new-api"
+                    ]
+                }
+            }
+        ]
+    }
+}

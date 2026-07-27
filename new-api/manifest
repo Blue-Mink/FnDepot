@@ -1,0 +1,16 @@
+appname               = new-api
+version               = 1.0.0-rc.22
+display_name          = New API
+desc                  = 新一代大模型网关与AI资产管理系统——聚合40+模型供应商，统一OpenAI兼容接口，支持智能路由、权限管理、用量统计与成本核算。
+arch                  = x86_64
+source                = thirdparty
+platform              = all
+maintainer            = QuantumNous
+distributor           = Blue-Mink
+maintainer_url        = https://github.com/QuantumNous/new-api
+distributor_url       = https://github.com/Blue-Mink
+desktop_uidir         = ui
+desktop_applaunchname = new-api.Application
+service_port          = 33000
+checkport             = true
+ctl_stop              = true

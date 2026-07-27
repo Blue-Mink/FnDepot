@@ -1,0 +1,3 @@
+#!/bin/bash
+### This script is called before uninstall.
+exit 0

@@ -149,6 +149,8 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+| New API | v1.0.0-rc.22 | 33000 | `calciumion/new-api:latest` | Blue-Mink | [QuantumNous](https://github.com/QuantumNous/new-api) | 新一代大模型网关与AI资产管理系统，聚合40+模型供应商，统一OpenAI兼容接口 | ✅ | ✅ |
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。

@@ -1,0 +1,3 @@
+#!/bin/bash
+### This script is called before config change.
+exit 0
