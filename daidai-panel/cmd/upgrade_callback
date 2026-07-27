@@ -1,0 +1,6 @@
+#!/bin/bash
+COMMON=$(dirname $0)/common
+if [ -r "${COMMON}" ]; then
+    . "${COMMON}"
+fi
+upgrade_callback

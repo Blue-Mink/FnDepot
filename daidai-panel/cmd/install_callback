@@ -1,0 +1,61 @@
+#!/bin/bash
+# install_callback — post-install setup for daidai-panel.
+# 创建数据目录、写入 config.yaml（含端口配置）、设置属主。
+
+APP_USER="${TRIM_USERNAME}"
+WIZARD_PORT="${wizard_access_port:-35700}"
+
+if [ -z "${APP_USER}" ]; then
+    echo "[install_callback] skip: TRIM_USERNAME is empty"
+    exit 0
+fi
+
+# ── 创建数据目录 ──
+mkdir -p \
+    "${TRIM_PKGVAR}/data" \
+    "${TRIM_PKGVAR}/data/scripts" \
+    "${TRIM_PKGVAR}/data/logs" \
+    "${TRIM_PKGVAR}/data/run" \
+    "${TRIM_PKGVAR}/logs" 2>/dev/null || true
+
+# ── 写入 config.yaml（使用向导选择的端口） ──
+cat > "${TRIM_PKGVAR}/config.yaml" << EOF
+server:
+  port: ${WIZARD_PORT}
+  mode: release
+  web_dir: ""
+
+database:
+  path: ./data/daidai.db
+
+jwt:
+  secret: ""
+  access_token_expire: 480h
+  refresh_token_expire: 1440h
+
+data:
+  dir: ./data
+  scripts_dir: ./data/scripts
+  log_dir: ./data/logs
+
+cors:
+  origins:
+    - http://localhost:5173
+    - http://localhost:5700
+EOF
+
+# ── 同步 ui/config 端口（桌面快捷方式正确跳转） ──
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "${UI_CONFIG}" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${WIZARD_PORT}\"/" "${UI_CONFIG}"
+fi
+
+# ── 写入端口记录文件供 service-setup 读取 ──
+echo "${WIZARD_PORT}" > "${TRIM_PKGVAR}/.daidai-port"
+
+# ── 设置属主 ──
+chown -R "${APP_USER}:${APP_USER}" \
+    "${TRIM_PKGVAR}" 2>/dev/null || true
+
+echo "[install_callback] completed with port=${WIZARD_PORT}"
+exit 0

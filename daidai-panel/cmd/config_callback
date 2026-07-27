@@ -1,0 +1,52 @@
+#!/bin/bash
+# cmd/config_callback - 配置变更后回调
+# 当用户在应用中心修改端口时：更新 config.yaml、ui/config、重启服务
+
+NEW_PORT="${wizard_access_port:-35700}"
+CONFIG_FILE="${TRIM_PKGVAR}/config.yaml"
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+PID_FILE="${TRIM_PKGVAR}/${TRIM_APPNAME}.pid"
+
+echo "[config_callback] new port=${NEW_PORT}"
+
+# ── 更新 config.yaml 中的端口 ──
+if [ -f "${CONFIG_FILE}" ]; then
+    sed -i "s/^\(  port:\)[[:space:]]*[0-9]*/\1 ${NEW_PORT}/" "${CONFIG_FILE}"
+    echo "[config_callback] config.yaml port updated to ${NEW_PORT}"
+else
+    echo "[config_callback] warning: config.yaml not found at ${CONFIG_FILE}"
+fi
+
+# ── 更新 ui/config 端口（桌面快捷方式） ──
+if [ -f "${UI_CONFIG}" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${NEW_PORT}\"/" "${UI_CONFIG}"
+    echo "[config_callback] ui/config port updated to ${NEW_PORT}"
+fi
+
+# ── 更新端口记录文件 ──
+echo "${NEW_PORT}" > "${TRIM_PKGVAR}/.daidai-port"
+
+# ── 重启服务使新端口生效 ──
+# 先停止旧进程
+if [ -f "${PID_FILE}" ]; then
+    for pid in $(cat "${PID_FILE}" 2>/dev/null); do
+        [ -n "${pid}" ] && kill -TERM "${pid}" 2>/dev/null || true
+    done
+    rm -f "${PID_FILE}" 2>/dev/null
+fi
+pkill -f "daidai-linux-amd64" 2>/dev/null || true
+sleep 2
+
+# 启动新进程（以新端口）
+if [ -x "${TRIM_APPDEST}/bin/daidai-linux-amd64" ]; then
+    cd "${TRIM_PKGVAR}"
+    nohup "${TRIM_APPDEST}/bin/daidai-linux-amd64" >> "${TRIM_PKGVAR}/${TRIM_APPNAME}.log" 2>&1 &
+    echo $! > "${PID_FILE}"
+    echo "[config_callback] service restarted with port ${NEW_PORT}"
+else
+    echo "[config_callback] error: binary not found at ${TRIM_APPDEST}/bin/daidai-linux-amd64"
+    exit 1
+fi
+
+echo "[config_callback] completed"
+exit 0

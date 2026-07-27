@@ -1,0 +1,31 @@
+#!/bin/bash
+
+LOG_FILE="${TRIM_PKGVAR}/${TRIM_APPNAME}.log"
+PID_FILE="${TRIM_PKGVAR}/${TRIM_APPNAME}.pid"
+
+APP_NAME="daidai-panel"
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR="${TRIM_PKGVAR}"
+
+# 启动命令：运行 bin 目录下的二进制
+# 二进制启动时自动读取 CWD 下的 config.yaml（由 install_callback 生成）
+SERVICE_COMMAND="${APP_DIR}/bin/daidai-linux-amd64"
+SVC_BACKGROUND=y
+SVC_WRITE_PID=y
+SVC_CWD="${TRIM_PKGVAR}"
+
+service_preuninst() {
+    # 确保呆呆面板进程被完全终止
+    pkill -f "daidai-linux-amd64" 2>/dev/null || true
+    sleep 1
+    pkill -9 -f "daidai-linux-amd64" 2>/dev/null || true
+}
+
+service_poststop() {
+    service_preuninst
+}
+
+service_postupgrade() {
+    # 升级后无需特殊处理
+    :
+}

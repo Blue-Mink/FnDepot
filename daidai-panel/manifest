@@ -1,0 +1,17 @@
+appname               = daidai-panel
+version               = 2.3.9
+display_name          = 呆呆面板
+desc                  = 基于青龙面板的轻量级定时脚本管理面板。支持 Python、Node.js、Shell、TypeScript、Go 等多语言脚本，内置 18 种消息推送渠道、订阅管理、环境变量、依赖管理、Open API 等功能。一些脚本 https://www.xiaoxin03.top/
+platform              = all
+source                = thirdparty
+maintainer            = Blue-Mink
+maintainer_url        = https://github.com/Blue-Mink
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink
+os_min_version        = 1.1.31
+desktop_uidir         = ui
+desktop_applaunchname = daidai-panel.Application
+service_port          = 35700
+checkport             = true
+ctl_stop              = true
+checksum              = ca3aa004

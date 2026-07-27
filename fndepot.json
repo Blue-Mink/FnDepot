@@ -91,5 +91,26 @@
         "size": "0.03",
         "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk",
         "changelog": "首发版本"
+    },
+    "daidai-panel": {
+        "display_name": "呆呆面板",
+        "version": "2.3.9",
+        "platform": "all",
+        "desc": "基于青龙面板的轻量级定时脚本管理面板。支持 Python、Node.js、Shell、TypeScript、Go 等多语言脚本，内置 18 种消息推送渠道、订阅管理、环境变量、依赖管理、Open API 等功能。一些脚本 https://www.xiaoxin03.top/",
+        "labels": "工具",
+        "icon_url": "./daidai-panel/ICON.PNG",
+        "readme_url": "./daidai-panel/README.md",
+        "homepage": "https://github.com/linzixuanzz/daidai-panel",
+        "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+        "author": "Blue-Mink",
+        "author_url": "https://github.com/Blue-Mink",
+        "distributor": "Blue-Mink",
+        "distributor_url": "https://github.com/Blue-Mink",
+        "install_type": "用户空间",
+        "size": "13.2",
+        "isdocker": "false",
+        "service_port": "35700",
+        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk",
+        "changelog": "首发版本"
     }
 }
