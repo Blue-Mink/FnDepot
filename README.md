@@ -128,6 +128,27 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🎨 呆呆面板 (daidai-panel)
+
+基于青龙面板二次开发的轻量级定时脚本管理面板。支持 Python、Node.js、Shell、TypeScript、Go 等多语言脚本，内置 18 种消息推送渠道、订阅管理、环境变量、依赖管理、Open API 等功能。一些脚本 https://www.xiaoxin03.top/
+
+<div align="center">
+
+[![daidai-panel](https://img.shields.io/badge/daidai--panel-v2.3.9-red?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [linzixuanzz](https://github.com/linzixuanzz) |
+| 📁 **原项目** | [daidai-panel](https://github.com/linzixuanzz/daidai-panel) |
+| 📥 **安装方式** | 下载 [daidai-panel-v2.3.9.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v2.3.9（同步原作者最新版） |
+| 🌐 **脚本资源** | https://www.xiaoxin03.top/ |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。
