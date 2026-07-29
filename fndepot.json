@@ -111,7 +111,7 @@
     "isdocker": "false",
     "service_port": "35700",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk",
-    "changelog": "首发版本"
+    "changelog": "更新应用图标为小恐龙图标\n优化图标显示效果"
   },
   "new-api": {
     "display_name": "New API",
