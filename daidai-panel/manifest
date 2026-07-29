@@ -15,3 +15,6 @@ service_port          = 35700
 checkport             = true
 ctl_stop              = true
 checksum              = ca3aa004
+
+icon               = ICON.PNG
+icon_256           = ICON_256.PNG
