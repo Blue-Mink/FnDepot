@@ -1,0 +1,35 @@
+#!/bin/bash
+### Called after the user installs the application.
+### For docker-project fpk, fnOS manages container lifecycle.
+
+write_error() {
+    local msg="$1"
+    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
+        echo "安装失败：$msg" > "$TRIM_TEMP_LOGFILE"
+    fi
+    echo "ERROR: $msg" >&2
+    exit 1
+}
+
+PORT="${wizard_access_port:-32679}"
+if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
+    write_error "无效的端口号：$PORT"
+fi
+
+echo "Install port: $PORT"
+
+COMPOSE_DIR="${TRIM_APPDEST}/docker"
+if [ ! -d "$COMPOSE_DIR" ]; then
+    write_error "Docker Compose 目录不存在：$COMPOSE_DIR"
+fi
+
+echo "wizard_access_port=${PORT}" > "${COMPOSE_DIR}/.env"
+
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "$UI_CONFIG" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
+    echo "Set ui/config port to ${PORT}"
+fi
+
+echo "Installation validation passed."
+exit 0

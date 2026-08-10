@@ -1,0 +1,38 @@
+{
+    "docker-project": {
+        "projects": [
+            {
+                "name": "trek",
+                "path": "docker"
+            }
+        ]
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "trek",
+                "permission": {
+                    "rw": [
+                        "docker-trek"
+                    ]
+                }
+            },
+            {
+                "name": "trek/data",
+                "permission": {
+                    "rw": [
+                        "docker-trek"
+                    ]
+                }
+            },
+            {
+                "name": "trek/uploads",
+                "permission": {
+                    "rw": [
+                        "docker-trek"
+                    ]
+                }
+            }
+        ]
+    }
+}

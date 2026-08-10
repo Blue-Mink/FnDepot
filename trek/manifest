@@ -1,0 +1,16 @@
+appname               = trek
+version               = 3.4.1
+display_name          = TREK
+desc                  = 自托管旅行规划工具，支持实时协作地图、行程规划、预算管理、行李清单、旅行日记与 AI 助手。基于 liketrek/TREK 构建。
+arch                  = x86_64
+source                = thirdparty
+platform              = all
+maintainer            = mauriceboe
+maintainer_url        = https://github.com/liketrek
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink
+desktop_uidir         = ui
+desktop_applaunchname = trek.Application
+service_port          = 32679
+checkport             = true
+ctl_stop              = true

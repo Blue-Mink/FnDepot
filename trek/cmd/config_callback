@@ -1,0 +1,33 @@
+#!/bin/bash
+### Called after the user modifies the application configuration.
+
+write_error() {
+    local msg="$1"
+    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
+        echo "配置失败：$msg" > "$TRIM_TEMP_LOGFILE"
+    fi
+    echo "ERROR: $msg" >&2
+    exit 1
+}
+
+PORT="${wizard_access_port:-32679}"
+if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
+    write_error "无效的端口号：$PORT"
+fi
+
+echo "Config port: $PORT"
+
+COMPOSE_DIR="${TRIM_APPDEST}/docker"
+if [ -d "$COMPOSE_DIR" ]; then
+    echo "wizard_access_port=${PORT}" > "${COMPOSE_DIR}/.env"
+    echo "Updated .env with port ${PORT}"
+fi
+
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "$UI_CONFIG" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
+    echo "Updated ui/config port to ${PORT}"
+fi
+
+echo "Configuration validation passed."
+exit 0

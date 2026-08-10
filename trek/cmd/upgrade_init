@@ -1,0 +1,4 @@
+#!/bin/bash
+### fnOS application lifecycle script
+
+exit 0
