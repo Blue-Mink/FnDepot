@@ -1,0 +1,21 @@
+#!/bin/bash
+### Called after the application is uninstalled.
+### Cleans up Docker container and optionally user data.
+
+CONTAINER_NAME="global-radio"
+
+# 停止并删除容器
+if docker ps -a --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
+    echo "Stopping and removing container: $CONTAINER_NAME"
+    docker stop "$CONTAINER_NAME" 2>/dev/null || true
+    docker rm "$CONTAINER_NAME" 2>/dev/null || true
+fi
+
+# 清除旧镜像（如果有相同名称的镜像）
+IMAGE_NAME="superneed/global-radio:latest"
+if docker images --format '{{.Repository}}:{{.Tag}}' | grep -q "^${IMAGE_NAME}$"; then
+    echo "Removing image: $IMAGE_NAME"
+    docker rmi "$IMAGE_NAME" 2>/dev/null || true
+fi
+
+exit 0

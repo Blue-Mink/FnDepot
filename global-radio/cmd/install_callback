@@ -1,0 +1,40 @@
+#!/bin/bash
+### Called after the user installs the application.
+### For docker-project fpk, fnOS manages container lifecycle.
+### This script only validates config and sets up initial .env.
+
+# 写入用户可见的错误日志
+write_error() {
+    local msg="$1"
+    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
+        echo "安装失败：$msg" > "$TRIM_TEMP_LOGFILE"
+    fi
+    echo "ERROR: $msg" >&2
+    exit 1
+}
+
+# 校验向导端口值
+PORT="${wizard_access_port:-32678}"
+if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
+    write_error "无效的端口号：$PORT"
+fi
+
+echo "Install port: $PORT"
+
+# 创建 .env 文件供 docker-compose 使用（docker-compose 能自动读取同目录的 .env）
+COMPOSE_DIR="${TRIM_APPDEST}/docker"
+if [ ! -d "$COMPOSE_DIR" ]; then
+    write_error "Docker Compose 目录不存在：$COMPOSE_DIR"
+fi
+
+echo "wizard_access_port=${PORT}" > "${COMPOSE_DIR}/.env"
+
+# 将端口写入 app/ui/config，确保桌面快捷方式使用正确的宿主机端口
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "$UI_CONFIG" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
+    echo "Set ui/config port to ${PORT}"
+fi
+
+echo "Installation validation passed."
+exit 0

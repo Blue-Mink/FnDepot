@@ -1,0 +1,9 @@
+services:
+  global-radio:
+    image: superneed/global-radio:latest
+    container_name: global-radio
+    restart: unless-stopped
+    ports:
+      - "${wizard_access_port}:80"
+    volumes:
+      - "${TRIM_PKGVAR}/data:/app/data"
