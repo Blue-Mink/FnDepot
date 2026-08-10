@@ -1,0 +1,14 @@
+appname=KmsActivator
+version=1.0.0
+display_name=KMS Activator
+desc=KMS 激活服务，为局域网内 Windows / Office 提供批量激活服务。<br>基于 vlmcsd，轻量高效，支持所有现代 Windows 和 Office 版本的 KMS 激活。
+platform=all
+source=thirdparty
+maintainer=jianyun8023
+maintainer_url=https://github.com/jianyun8023
+distributor=jianyun8023
+os_min_version=0.9.0
+desktop_uidir=ui
+desktop_applaunchname=KmsActivator.main
+ctl_stop=true
+checkport=false
