@@ -133,5 +133,26 @@
     "service_port": "33000",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk",
     "changelog": "首发 fnOS 版本\nv1.0.0-rc.22（与原项目版本一致）\n基于 calciumion/new-api:latest 镜像\n安装时支持自定义端口（向导配置）\n图标正常显示\n支持卸载清理"
+  },
+  "dockflare": {
+    "display_name": "DockFlare",
+    "version": "3.1.3",
+    "platform": "all",
+    "desc": "自托管 Cloudflare Tunnel 管理平台——给 Docker 容器打上 dockflare.* 标签，自动创建 DNS 记录、隧道 ingress 规则与 Zero Trust Access 策略，一站式管理 Cloudflare Tunnel / DNS / Access / Workers / R2 / Email Routing。",
+    "labels": "工具，网络",
+    "icon_url": "./dockflare/ICON.PNG",
+    "readme_url": "./dockflare/README.md",
+    "homepage": "https://github.com/ChrispyBacon-dev/DockFlare",
+    "bug_report_url": "https://github.com/ChrispyBacon-dev/DockFlare/issues",
+    "author": "ChrispyBacon-dev",
+    "author_url": "https://github.com/ChrispyBacon-dev",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "install_type": "用户空间",
+    "size": "0.15",
+    "isdocker": "true",
+    "service_port": "32671",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.1.3/dockflare-v3.1.3-fnos-all.fpk",
+    "changelog": "首发 fnOS 版本\nv3.1.3（与原项目版本一致）\n基于 alplat/dockflare:stable 镜像 + redis + docker-socket-proxy\n安装时支持自定义端口（向导配置，默认 32671）\n官方图标\n数据卷持久化"
   }
 }

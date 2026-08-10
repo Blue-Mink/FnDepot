@@ -1,0 +1,38 @@
+{
+    "docker-project":
+    {
+        "projects":
+        [
+            {
+                "name": "dockflare",
+                "path": "docker"
+            }
+        ]
+    },
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "dockflare",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-dockflare"
+                    ]
+                }
+            },
+            {
+                "name": "dockflare/data",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-dockflare"
+                    ]
+                }
+            }
+        ]
+    }
+}

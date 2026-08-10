@@ -1,0 +1,38 @@
+#!/bin/bash
+### DockFlare - 安装回调
+### 读取 wizard 端口，写入 compose 目录 .env，同步 ui/config 端口。
+
+write_error() {
+    local msg="$1"
+    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
+        echo "安装失败：$msg" > "$TRIM_TEMP_LOGFILE"
+    fi
+    echo "ERROR: $msg" >&2
+    exit 1
+}
+
+PORT="${wizard_access_port:-32671}"
+if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
+    write_error "无效的端口号：$PORT"
+fi
+
+COMPOSE_DIR="${TRIM_APPDEST}/docker"
+if [ ! -d "$COMPOSE_DIR" ]; then
+    write_error "Docker Compose 目录不存在：$COMPOSE_DIR"
+fi
+
+# 写入 .env 供 docker-compose 使用
+cat > "${COMPOSE_DIR}/.env" <<EOF
+wizard_access_port=${PORT}
+DOCKFLARE_UID=65532
+DOCKFLARE_GID=65532
+EOF
+
+# 同步 ui/config 端口
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "$UI_CONFIG" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
+fi
+
+echo "DockFlare install OK, port=${PORT}"
+exit 0

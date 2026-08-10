@@ -1,0 +1,17 @@
+appname               = dockflare
+version               = 3.1.3
+display_name          = DockFlare
+desc                  = DockFlare 自托管 Cloudflare Tunnel 管理平台：给 Docker 容器打上 dockflare.* 标签，自动创建 DNS 记录、隧道 ingress 规则与 Zero Trust Access 策略，一站式管理 Cloudflare Tunnel / DNS / Access / Workers / R2 / Email Routing。基于 ChrispyBacon-dev/DockFlare（GPL-3.0）。
+platform              = all
+source                = thirdparty
+maintainer            = Blue-Mink
+maintainer_url        = https://github.com/Blue-Mink/FnDepot
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink/FnDepot
+os_min_version        = 0.8.0
+desktop_uidir         = ui
+desktop_applaunchname = dockflare.App
+service_port          = 32671
+checkport             = true
+ctl_stop              = true
+checksum              = 3d11b37f924839617ff2669bbbf9844e

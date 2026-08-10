@@ -1,0 +1,14 @@
+{
+    ".url": {
+        "dockflare.App": {
+            "title": "DockFlare",
+            "desc": "Cloudflare Tunnel 管理平台",
+            "icon": "images/icon_64.png",
+            "type": "application",
+            "protocol": "http",
+            "port": "32671",
+            "url": "/",
+            "allUsers": false
+        }
+    }
+}

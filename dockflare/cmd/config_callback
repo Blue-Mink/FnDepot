@@ -1,0 +1,52 @@
+#!/bin/bash
+### DockFlare - 配置回调（应用设置中修改端口）
+### 更新 .env 与 ui/config，并重启 compose 使新端口生效。
+
+write_error() {
+    local msg="$1"
+    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
+        echo "配置变更失败：$msg" > "$TRIM_TEMP_LOGFILE"
+    fi
+    echo "ERROR: $msg" >&2
+    exit 1
+}
+
+PORT="${wizard_access_port:-32671}"
+if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
+    write_error "无效的端口号：$PORT"
+fi
+
+COMPOSE_DIR="${TRIM_APPDEST}/docker"
+ENV_FILE="${COMPOSE_DIR}/.env"
+
+if [ ! -d "$COMPOSE_DIR" ]; then
+    write_error "Docker Compose 目录不存在：$COMPOSE_DIR"
+fi
+
+cat > "$ENV_FILE" <<EOF
+wizard_access_port=${PORT}
+DOCKFLARE_UID=65532
+DOCKFLARE_GID=65532
+EOF
+
+UI_CONFIG="${TRIM_APPDEST}/ui/config"
+if [ -f "$UI_CONFIG" ]; then
+    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
+fi
+
+# 重启 compose 应用新端口
+docker_compose_cmd=""
+if command -v docker-compose >/dev/null 2>&1; then
+    docker_compose_cmd="docker-compose"
+elif docker compose version >/dev/null 2>&1; then
+    docker_compose_cmd="docker compose"
+fi
+
+if [ -n "$docker_compose_cmd" ]; then
+    cd "$COMPOSE_DIR" && $docker_compose_cmd up -d 2>&1 || {
+        echo "WARNING: 容器重启失败，可能需要手动重启应用。" >&2
+    }
+fi
+
+echo "DockFlare port updated to ${PORT}"
+exit 0

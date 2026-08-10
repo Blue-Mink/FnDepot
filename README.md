@@ -169,6 +169,26 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🌩️ DockFlare
+
+自托管 Cloudflare Tunnel 管理平台——给 Docker 容器打上 `dockflare.*` 标签，自动创建 DNS 记录、隧道 ingress 规则与 Zero Trust Access 策略，一站式管理 Cloudflare Tunnel / DNS / Access / Workers / R2 / Email Routing。
+
+<div align="center">
+
+[![DockFlare](https://img.shields.io/badge/DockFlare-v3.1.3-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [ChrispyBacon-dev](https://github.com/ChrispyBacon-dev) |
+| 📁 **原项目** | [DockFlare](https://github.com/ChrispyBacon-dev/DockFlare) |
+| 📥 **安装方式** | 下载 [dockflare-v3.1.3-fnos-all.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v3.1.3/dockflare-v3.1.3-fnos-all.fpk) 在 fnOS 应用中心手动安装，安装时可选端口（默认32671） |
+| 🏷️ **版本** | v3.1.3（同步原作者最新版） |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。
