@@ -1,3 +1,0 @@
-#!/bin/bash
-# 配置后：重启服务（由应用中心在 callback 后自动执行 start）
-exit 0

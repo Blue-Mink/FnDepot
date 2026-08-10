@@ -1,6 +1,0 @@
-#!/bin/bash
-# 升级后：保留密钥库
-if [ -f "${TRIM_APPDEST}/vlmcsd.kmd" ]; then
-    cp "${TRIM_APPDEST}/vlmcsd.kmd" "${TRIM_PKGVAR}/vlmcsd.kmd" 2>/dev/null || true
-fi
-exit 0
