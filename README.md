@@ -176,7 +176,16 @@ i茅台 App 自动预约助手——每日自动预约申购、自动 i茅台预
 <div align="center">
 
 [![campus-imaotai](https://img.shields.io/badge/campus--imaotai-v1.0.14-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [oddfar](https://github.com/oddfar) |
+| 📁 **原项目** | [campus-imaotai](https://github.com/oddfar/campus-imaotai) |
+| 📥 **安装方式** | 下载 [campus-imaotai-v1.0.14.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.14/campus-imaotai-v1.0.14.fpk) 在 fnOS 应用中心手动安装，安装时可选端口（前端32681 / API32682） |
+| 🏷️ **版本** | v1.0.14 |
 ---
 
 ### 🌩️ DockFlare
