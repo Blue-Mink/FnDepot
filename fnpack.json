@@ -154,5 +154,26 @@
     "service_port": "32671",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.1.3/dockflare-v3.1.3-fnos-all.fpk",
     "changelog": "首发 fnOS 版本\nv3.1.3（与原项目版本一致）\n基于 alplat/dockflare:stable 镜像 + redis + docker-socket-proxy\n安装时支持自定义端口（向导配置，默认 32671）\n官方图标\n数据卷持久化"
+  },
+  "campus-imaotai": {
+    "display_name": "i茅台自动预约助手",
+    "version": "1.0.14",
+    "platform": "all",
+    "desc": "i茅台 app 自动预约助手：每日自动预约申购、自动 i茅台预约，支持 Docker 一键部署，自带 Web 管理界面。基于 oddfar/campus-imaotai（MIT）。",
+    "labels": "生活，工具",
+    "icon_url": "./campus-imaotai/ICON.PNG",
+    "readme_url": "./campus-imaotai/README.md",
+    "homepage": "https://github.com/oddfar/campus-imaotai",
+    "bug_report_url": "https://github.com/oddfar/campus-imaotai/issues",
+    "author": "oddfar",
+    "author_url": "https://github.com/oddfar",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "install_type": "用户空间",
+    "size": "72.59",
+    "isdocker": "true",
+    "service_port": "32681",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.14/campus-imaotai-v1.0.14.fpk",
+    "changelog": "首发 fnOS 版本\nv1.0.14\n基于 oddfar/campus-imaotai（MIT）\n四容器架构：Java 后端 + MySQL + Redis + Nginx\n安装向导自定义端口（前端32681/API32682）\n验证码修复：Ubuntu JDK + java.awt.headless\ni茅台官方图标（iOS 圆角）\nNginx 健康检查修复，四容器全部 healthy"
   }
 }
