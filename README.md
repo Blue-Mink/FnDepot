@@ -186,6 +186,9 @@ i茅台 App 自动预约助手——每日自动预约申购、自动 i茅台预
 | 📁 **原项目** | [campus-imaotai](https://github.com/oddfar/campus-imaotai) |
 | 📥 **安装方式** | 下载 [campus-imaotai-v1.0.14.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.14/campus-imaotai-v1.0.14.fpk) 在 fnOS 应用中心手动安装，安装时可选端口（前端32681 / API32682） |
 | 🏷️ **版本** | v1.0.14 |
+| 👤 **默认账号** | `admin` |
+| 🔑 **默认密码** | `admin123` |
+| ⚠️ **首次启动** | 首次启动较慢，请耐心等待 MySQL 初始化（约 10 分钟） |
 ---
 
 ### 🌩️ DockFlare
