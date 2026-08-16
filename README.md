@@ -169,28 +169,6 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
-### 🍶 i茅台自动预约助手 (campus-imaotai)
-
-i茅台 App 自动预约助手——每日自动预约申购、自动 i茅台预约，基于 [oddfar/campus-imaotai](https://github.com/oddfar/campus-imaotai)（MIT），自带 Web 管理界面，四容器架构一键部署。
-
-<div align="center">
-
-[![campus-imaotai](https://img.shields.io/badge/campus--imaotai-v1.0.14-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [oddfar](https://github.com/oddfar) |
-| 📁 **原项目** | [campus-imaotai](https://github.com/oddfar/campus-imaotai) |
-| 📥 **安装方式** | 下载 [campus-imaotai-v1.0.14.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.14/campus-imaotai-v1.0.14.fpk) 在 fnOS 应用中心手动安装，安装时可选端口（前端32681 / API32682） |
-| 🏷️ **版本** | v1.0.14 |
-| 👤 **默认账号** | `admin` |
-| 🔑 **默认密码** | `admin123` |
-| ⚠️ **首次启动** | 首次启动较慢，请耐心等待 MySQL 初始化（约 10 分钟） |
----
-
 ### 🌩️ DockFlare
 
 自托管 Cloudflare Tunnel 管理平台——给 Docker 容器打上 `dockflare.*` 标签，自动创建 DNS 记录、隧道 ingress 规则与 Zero Trust Access 策略，一站式管理 Cloudflare Tunnel / DNS / Access / Workers / R2 / Email Routing。
