@@ -189,6 +189,27 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🚀 KSpeeder
+
+Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理，帮助提升容器镜像拉取速度。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心。
+
+<div align="center">
+
+[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.7.16-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [kspeeder](https://github.com/kspeeder) |
+| 📁 **原项目** | [docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) |
+| 📥 **安装方式** | 下载 [kspeeder-0.7.16-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.16/kspeeder-0.7.16-fnos-amd64.fpk) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v0.7.16 |
+| 📖 **详细说明** | [kspeeder/README.md](kspeeder/README.md) |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。
