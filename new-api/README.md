@@ -38,3 +38,9 @@ New API 是基于 [QuantumNous/new-api](https://github.com/QuantumNous/new-api) 
 ---
 
 本 fpk 由 [Blue-Mink](https://github.com/Blue-Mink) 为 fnOS 平台打包。
+
+## 校验
+
+```text
+65c6842986fdd18d1898e8dc883f42fb3773407244891ce83a8d88a180b27bb1  new-api-1.0.0-rc.27-fnos-amd64-root.fpk
+```
