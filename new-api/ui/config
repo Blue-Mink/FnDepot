@@ -1,1 +1,1 @@
-{"url":{"new-api.Application":{"title":"New API","icon":"images/icon_{0}.png","type":"url","protocol":"","port":"33000","url":"/","allUsers":false}}}
+{".url":{"new-api.Application":{"title":"New API","icon":"images/icon_{0}.png","type":"iframe","protocol":"http","port":"33000","url":"/","allUsers":true}}}
