@@ -132,7 +132,7 @@
         "isdocker": "false",
         "service_port": "33000",
         "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-api-v1.0.0-rc.27-fnos-amd64-root/new-api-1.0.0-rc.27-fnos-amd64-root.fpk",
-        "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.27 Linux amd64 二进制构建\nroot 权限测试验证版\n默认端口 33000，应用中心 iframe 入口"
+        "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.27 Linux amd64 二进制构建\nroot 权限测试验证版\n默认端口 33000，应用中心 iframe 入口\n补齐 icon_64.png / icon_256.png 图标兼容文件"
     },
     "dockflare": {
         "display_name": "DockFlare",
