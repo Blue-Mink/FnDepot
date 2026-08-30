@@ -169,6 +169,26 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🧠 New API (new-api)
+
+新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。
+
+<div align="center">
+
+[![new-api](https://img.shields.io/badge/new--api-v1.0.0--rc.27-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [QuantumNous](https://github.com/QuantumNous) |
+| 📁 **原项目** | [new-api](https://github.com/QuantumNous/new-api) |
+| 📥 **安装方式** | 在飞牛 FnDepot 添加本源，或下载 Release 中的 `.fpk` 手动安装 |
+| 🏷️ **版本** | v1.0.0-rc.27 |
+| 🌐 **默认端口** | 33000 |
+---
+
 ### 🌩️ DockFlare
 
 自托管 Cloudflare Tunnel 管理平台——给 Docker 容器打上 `dockflare.*` 标签，自动创建 DNS 记录、隧道 ingress 规则与 Zero Trust Access 策略，一站式管理 Cloudflare Tunnel / DNS / Access / Workers / R2 / Email Routing。
@@ -230,24 +250,3 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 Made with ❤️ by [Blue-Mink](https://github.com/Blue-Mink)
 
 </div>
----
-
-### 🧠 New API (new-api)
-
-新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。
-
-<div align="center">
-
-[![new-api](https://img.shields.io/badge/new--api-v1.0.0--rc.27-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
-
-</div>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [QuantumNous](https://github.com/QuantumNous) |
-| 📁 **原项目** | [new-api](https://github.com/QuantumNous/new-api) |
-| 📥 **安装方式** | 在飞牛 FnDepot 添加本源，或下载 Release 中的 `.fpk` 手动安装 |
-| 🏷️ **版本** | v1.0.0-rc.27 |
-| 🌐 **默认端口** | 33000 |
-
