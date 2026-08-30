@@ -1,3 +1,3 @@
 #!/bin/bash
-### This script is called before config change.
+set -euo pipefail
 exit 0
