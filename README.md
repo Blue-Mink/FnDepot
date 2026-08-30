@@ -230,3 +230,24 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 Made with ❤️ by [Blue-Mink](https://github.com/Blue-Mink)
 
 </div>
+---
+
+### 🧠 New API (new-api)
+
+新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。
+
+<div align="center">
+
+[![new-api](https://img.shields.io/badge/new--api-v1.0.0--rc.27-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [QuantumNous](https://github.com/QuantumNous) |
+| 📁 **原项目** | [new-api](https://github.com/QuantumNous/new-api) |
+| 📥 **安装方式** | 在飞牛 FnDepot 添加本源，或下载 Release 中的 `.fpk` 手动安装 |
+| 🏷️ **版本** | v1.0.0-rc.27 |
+| 🌐 **默认端口** | 33000 |
+
