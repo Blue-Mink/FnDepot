@@ -115,10 +115,10 @@
     },
     "new-api": {
         "display_name": "New API",
-        "version": "1.0.0-rc.22",
-        "platform": "all",
-        "desc": "新一代大模型网关与AI资产管理系统——聚合40+模型供应商，统一OpenAI兼容接口，支持智能路由、权限管理、用量统计与成本核算。",
-        "labels": "工具，开发",
+        "version": "1.0.0-rc.27",
+        "platform": "x86",
+        "desc": "新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。",
+        "labels": "工具,AI",
         "icon_url": "./new-api/ICON.PNG",
         "readme_url": "./new-api/README.md",
         "homepage": "https://github.com/QuantumNous/new-api",
@@ -128,11 +128,11 @@
         "distributor": "Blue-Mink",
         "distributor_url": "https://github.com/Blue-Mink",
         "install_type": "用户空间",
-        "size": "0.05",
-        "isdocker": "true",
+        "size": "36.94",
+        "isdocker": "false",
         "service_port": "33000",
-        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk",
-        "changelog": "首发 fnOS 版本\nv1.0.0-rc.22（与原项目版本一致）\n基于 calciumion/new-api:latest 镜像\n安装时支持自定义端口（向导配置）\n图标正常显示\n支持卸载清理"
+        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-api-v1.0.0-rc.27-fnos-amd64-root/new-api-1.0.0-rc.27-fnos-amd64-root.fpk",
+        "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.27 Linux amd64 二进制构建\nroot 权限测试验证版\n默认端口 33000，应用中心 iframe 入口"
     },
     "dockflare": {
         "display_name": "DockFlare",
