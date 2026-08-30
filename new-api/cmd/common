@@ -1,0 +1,113 @@
+#!/bin/bash
+set -euo pipefail
+
+APP_NAME="${TRIM_APPNAME:-new-api}"
+APP_DEST="${TRIM_APPDEST:-/var/apps/${APP_NAME}/target}"
+PKG_ETC="${TRIM_PKGETC:-/var/apps/${APP_NAME}/etc}"
+PKG_VAR="${TRIM_PKGVAR:-/var/apps/${APP_NAME}/var}"
+PKG_TMP="${TRIM_PKGTMP:-/var/apps/${APP_NAME}/tmp}"
+PID_FILE="${PKG_VAR}/new-api.pid"
+LOG_DIR="${PKG_VAR}/logs"
+LOG_FILE="${LOG_DIR}/new-api.log"
+BIN="${APP_DEST}/bin/new-api"
+
+write_temp_log() {
+  local msg="$1"
+  if [ -n "${TRIM_TEMP_LOGFILE:-}" ] && [ -w "$(dirname "$TRIM_TEMP_LOGFILE")" ]; then
+    printf '%s\n' "$msg" >> "$TRIM_TEMP_LOGFILE" || true
+  fi
+  printf '%s\n' "$msg" >&2
+}
+
+prepare_dirs() {
+  mkdir -p "$PKG_ETC" "$PKG_VAR" "$PKG_TMP" "$LOG_DIR"
+}
+
+is_valid_port() {
+  local p="${1:-}"
+  [[ "$p" =~ ^[0-9]+$ ]] && [ "$p" -ge 1 ] && [ "$p" -le 65535 ]
+}
+
+configured_port() {
+  local port="${wizard_access_port:-${TRIM_SERVICE_PORT:-33000}}"
+  if [ -f "${PKG_ETC}/new-api.env" ]; then
+    # shellcheck disable=SC1090
+    . "${PKG_ETC}/new-api.env"
+    port="${NEW_API_PORT:-$port}"
+  fi
+  echo "$port"
+}
+
+save_config() {
+  prepare_dirs
+  local port="${wizard_access_port:-33000}"
+  if ! is_valid_port "$port"; then
+    write_temp_log "Invalid New API port: ${port}"
+    return 1
+  fi
+  cat > "${PKG_ETC}/new-api.env" <<EOCFG
+NEW_API_PORT=${port}
+EOCFG
+  chmod 600 "${PKG_ETC}/new-api.env"
+}
+
+pid_running() {
+  [ -f "$PID_FILE" ] || return 1
+  local pid
+  pid="$(cat "$PID_FILE" 2>/dev/null || true)"
+  [[ "$pid" =~ ^[0-9]+$ ]] || return 1
+  [ -r "/proc/${pid}/cmdline" ] || return 1
+  tr '\0' ' ' < "/proc/${pid}/cmdline" | grep -Fq "$BIN"
+}
+
+port_listening() {
+  local port="$1"
+  ss -tln 2>/dev/null | awk '{print $4}' | grep -Eq "(^|:)${port}$"
+}
+
+start_service() {
+  prepare_dirs
+  [ -x "$BIN" ] || { write_temp_log "New API binary not executable: ${BIN}"; return 1; }
+  local port
+  port="$(configured_port)"
+  is_valid_port "$port" || { write_temp_log "Invalid New API port: ${port}"; return 1; }
+  if pid_running; then
+    return 0
+  fi
+  if port_listening "$port"; then
+    write_temp_log "Port ${port} is already in use"
+    return 1
+  fi
+  (
+    cd "$PKG_VAR"
+    nohup "$BIN" --port "$port" --log-dir "$LOG_DIR" >> "$LOG_FILE" 2>&1 &
+    echo $! > "$PID_FILE"
+  )
+  for _ in $(seq 1 5); do
+    if pid_running; then
+      return 0
+    fi
+    sleep 1
+  done
+  write_temp_log "New API process did not start; see ${LOG_FILE}"
+  return 1
+}
+
+stop_service() {
+  if ! pid_running; then
+    rm -f "$PID_FILE"
+    return 0
+  fi
+  local pid
+  pid="$(cat "$PID_FILE")"
+  kill "$pid" 2>/dev/null || true
+  for _ in $(seq 1 20); do
+    if ! pid_running; then
+      rm -f "$PID_FILE"
+      return 0
+    fi
+    sleep 1
+  done
+  kill -9 "$pid" 2>/dev/null || true
+  rm -f "$PID_FILE"
+}
