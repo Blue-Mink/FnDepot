@@ -1,48 +1,6 @@
 #!/bin/bash
-### Called after user changes env vars via app settings.
-
-write_error() {
-    local msg="$1"
-    if [ -n "$TRIM_TEMP_LOGFILE" ]; then
-        echo "配置变更失败：$msg" > "$TRIM_TEMP_LOGFILE"
-    fi
-    echo "ERROR: $msg" >&2
-    exit 1
-}
-
-PORT="${wizard_access_port:-33000}"
-if ! echo "$PORT" | grep -qE '^[0-9]+$' || [ "$PORT" -lt 1 ] || [ "$PORT" -gt 65535 ]; then
-    write_error "无效的端口号：$PORT"
-fi
-
-COMPOSE_DIR="${TRIM_APPDEST}/docker"
-ENV_FILE="${COMPOSE_DIR}/.env"
-
-if [ ! -d "$COMPOSE_DIR" ]; then
-    write_error "Docker Compose 目录不存在：$COMPOSE_DIR"
-fi
-
-echo "Updating port to: $PORT"
-echo "wizard_access_port=${PORT}" > "$ENV_FILE"
-
-UI_CONFIG="${TRIM_APPDEST}/ui/config"
-if [ -f "$UI_CONFIG" ]; then
-    sed -i "s/\"port\": \"[0-9]*\"/\"port\": \"${PORT}\"/" "$UI_CONFIG"
-    echo "Updated ui/config port to ${PORT}"
-fi
-
-docker_compose_cmd=""
-if command -v docker-compose >/dev/null 2>&1; then
-    docker_compose_cmd="docker-compose"
-elif docker compose version >/dev/null 2>&1; then
-    docker_compose_cmd="docker compose"
-fi
-
-if [ -n "$docker_compose_cmd" ]; then
-    cd "$COMPOSE_DIR" && $docker_compose_cmd up -d || {
-        echo "WARNING: Container restart failed, you may need to restart manually." >&2
-    }
-fi
-
-echo "Port configuration saved."
-exit 0
+set -euo pipefail
+. "$(dirname "$0")/common"
+save_config
+stop_service
+start_service
