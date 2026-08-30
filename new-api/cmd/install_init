@@ -1,3 +1,11 @@
 #!/bin/bash
-### This script is called before the user installs the application.
+set -euo pipefail
+port="${wizard_access_port:-33000}"
+if ! [[ "$port" =~ ^[0-9]+$ ]] || [ "$port" -lt 1 ] || [ "$port" -gt 65535 ]; then
+  if [ -n "${TRIM_TEMP_LOGFILE:-}" ]; then
+    printf 'Invalid New API port: %s\n' "$port" >> "$TRIM_TEMP_LOGFILE" || true
+  fi
+  printf 'Invalid New API port: %s\n' "$port" >&2
+  exit 1
+fi
 exit 0
