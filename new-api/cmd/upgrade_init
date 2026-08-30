@@ -1,3 +1,4 @@
 #!/bin/bash
-### This script is called before upgrade.
-exit 0
+set -euo pipefail
+. "$(dirname "$0")/common"
+stop_service
