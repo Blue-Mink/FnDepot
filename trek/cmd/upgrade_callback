@@ -1,4 +1,3 @@
 #!/bin/bash
-### fnOS application lifecycle script
-
+echo "TREK has been upgraded."
 exit 0
