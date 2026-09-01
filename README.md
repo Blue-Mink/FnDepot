@@ -107,6 +107,30 @@ TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集
 
 ---
 
+### 🗺️ TREK (v4.1.1)
+
+TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://github.com/liketrek/TREK) 构建。此版本为 Docker Web FPK，已在 fnOS 备用机完成安装、HTTP 登录、应用中心启停、端口修改与卸载重装链路验证。
+
+<div align="center">
+
+[![TREK](https://img.shields.io/badge/TREK-v4.1.1-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [liketrek](https://github.com/liketrek) |
+| 📁 **原项目** | [liketrek/TREK](https://github.com/liketrek/TREK) |
+| 📥 **安装方式** | 下载 [com.trek.app-4.1.1-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/trek-v4.1.1/com.trek.app-4.1.1-fnos-amd64.fpk) 在 fnOS 应用中心手动安装，或在飞牛 FnDepot 中添加本源后搜索「TREK」安装 |
+| 🏷️ **版本** | v4.1.1 |
+| 🌐 **默认端口** | 32679（HTTP） |
+| 🔑 **默认账号** | admin@trek.local / Admin12345（登录后请立即修改密码） |
+| ✅ **验证状态** | 已验证安装、HTTP 登录、应用中心启动/停止传递 Docker、端口 32679↔32680 配置链路 |
+| 📖 **详细说明** | [trek-v4.1.1/README.md](trek-v4.1.1/README.md) |
+
+---
+
 ### 🏠 冬瓜HAOS (dongguaha)
 
 在 x86 fnOS 系统中创建同架构的冬瓜HAOS虚拟机，享受 KVM 硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，VNC中查看虚拟机IP，通过 `http://虚拟机IP:8123` 访问 Home Assistant Web UI，通过 `http://虚拟机IP:8124` 访问冬瓜HAOS伴侣。
