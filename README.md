@@ -88,27 +88,6 @@
 
 ### 🗺️ TREK
 
-TREK 是一款自托管旅行规划工具，以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记于一体。支持 SSO 登录、PWA 离线访问、MCP 协议扩展。
-
-<div align="center">
-
-[![TREK](https://img.shields.io/badge/TREK-v3.4.1-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [liketrek](https://github.com/liketrek) |
-| 📁 **原项目** | [liketrek/TREK](https://github.com/liketrek/TREK) |
-| 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「TREK」即可安装 |
-| 🏷️ **版本** | v3.4.1（同步原作者最新版） |
-| 🔑 **默认账号** | admin@trek.local / Admin12345（登录后请立即修改密码） |
-
----
-
-### 🗺️ TREK (v4.1.1)
-
 TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://github.com/liketrek/TREK) 构建。此版本为 Docker Web FPK，已在 fnOS 备用机完成安装、HTTP 登录、应用中心启停、端口修改与卸载重装链路验证。
 
 <div align="center">
@@ -127,7 +106,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | 🌐 **默认端口** | 32679（HTTP） |
 | 🔑 **默认账号** | admin@trek.local / Admin12345（登录后请立即修改密码） |
 | ✅ **验证状态** | 已验证安装、HTTP 登录、应用中心启动/停止传递 Docker、端口 32679↔32680 配置链路 |
-| 📖 **详细说明** | [trek-v4.1.1/README.md](trek-v4.1.1/README.md) |
+| 📖 **详细说明** | [trek/README.md](trek/README.md) |
 
 ---
 
