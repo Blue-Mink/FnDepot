@@ -1,0 +1,5 @@
+#!/bin/bash
+### fnOS application lifecycle script
+
+echo "TREK has been uninstalled."
+echo "All data has been preserved in $TRIM_PKGVAR."
