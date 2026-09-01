@@ -58,11 +58,11 @@ start() {
 
     prepare_env
     cd "$APP_DIR/docker"
-    docker compose down --remove-orphans 2>/dev/null || true
+    docker compose -p trek down --remove-orphans 2>/dev/null || true
     if docker ps -a --format '{{.Names}}' | grep -qx 'trek'; then
         docker rm -f trek >/dev/null 2>&1 || true
     fi
-    docker compose up -d
+    docker compose -p trek up -d
 
     if command -v psql >/dev/null 2>&1; then
       psql -h /var/run/postgresql -d appcenter -U postgres >/dev/null 2>&1 <<SQL || true
@@ -92,7 +92,7 @@ SQL
 stop() {
     if [ -f "$APP_DIR/docker/docker-compose.yml" ]; then
         cd "$APP_DIR/docker"
-        docker compose stop
+        docker compose -p trek stop
     else
         docker stop trek 2>/dev/null || true
     fi
