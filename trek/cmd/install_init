@@ -1,4 +1,3 @@
 #!/bin/bash
-### fnOS application lifecycle script
-
+echo "Initializing TREK installation..."
 exit 0
