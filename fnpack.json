@@ -60,7 +60,7 @@
     "platform": "x86",
     "desc": "TREK 自托管旅行规划工具 — 基于 liketrek/TREK 开源项目（v4.1.1），以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记、AI 辅助于一体，支持 SSO 登录、PWA 离线访问、MCP 协议扩展。此 FPK 已验证应用中心启动/停止可传递到 Docker，支持修改访问端口。首次登录账号：admin@trek.local / Admin12345，登录后请立即修改初始密码。",
     "labels": "工具，娱乐",
-    "icon_url": "./trek/ICON.PNG",
+    "icon_url": "./trek/ICON_256.PNG",
     "readme_url": "./trek/README.md",
     "homepage": "https://github.com/liketrek/TREK",
     "bug_report_url": "https://github.com/liketrek/TREK/issues",
