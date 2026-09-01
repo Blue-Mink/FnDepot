@@ -1,4 +1,3 @@
 #!/bin/bash
-### fnOS application lifecycle script
-
+echo "Uninstalling TREK..."
 exit 0
