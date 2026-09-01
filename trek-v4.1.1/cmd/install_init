@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "Initializing TREK installation..."
-exit 0
