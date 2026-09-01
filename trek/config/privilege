@@ -1,1 +1,3 @@
-{"defaults": {"run-as": "package"}, "username": "trek", "groupname": "trek"}
+{
+  "defaults": {"run-as": "root"}
+}
