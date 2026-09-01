@@ -1,3 +1,5 @@
+name: trek
+
 services:
   app:
     image: mauriceboe/trek:latest
