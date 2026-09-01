@@ -1,0 +1,30 @@
+{
+  "data-share": {
+    "shares": [
+      {
+        "name": "trek",
+        "permission": {
+          "rw": [
+            "com.trek.app"
+          ]
+        }
+      },
+      {
+        "name": "trek/data",
+        "permission": {
+          "rw": [
+            "com.trek.app"
+          ]
+        }
+      },
+      {
+        "name": "trek/uploads",
+        "permission": {
+          "rw": [
+            "com.trek.app"
+          ]
+        }
+      }
+    ]
+  }
+}
