@@ -1,4 +1,3 @@
 #!/bin/bash
-### fnOS application lifecycle script
-
+echo "Upgrading TREK..."
 exit 0
