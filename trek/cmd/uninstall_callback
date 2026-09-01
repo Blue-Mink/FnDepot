@@ -1,19 +1,5 @@
 #!/bin/bash
-### Called after the application is uninstalled.
-### Cleans up Docker container and image.
+### fnOS application lifecycle script
 
-CONTAINER_NAME="trek"
-
-if docker ps -a --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
-    echo "Stopping and removing container: $CONTAINER_NAME"
-    docker stop "$CONTAINER_NAME" 2>/dev/null || true
-    docker rm "$CONTAINER_NAME" 2>/dev/null || true
-fi
-
-IMAGE_NAME="mauriceboe/trek:latest"
-if docker images --format '{{.Repository}}:{{.Tag}}' | grep -q "^${IMAGE_NAME}$"; then
-    echo "Removing image: $IMAGE_NAME"
-    docker rmi "$IMAGE_NAME" 2>/dev/null || true
-fi
-
-exit 0
+echo "TREK has been uninstalled."
+echo "All data has been preserved in $TRIM_PKGVAR."
