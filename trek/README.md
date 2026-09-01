@@ -1,41 +1,54 @@
-# TREK — 自托管旅行规划工具
+# TREK - 旅行规划工具
 
-TREK 是一款功能全面的自托管旅行规划应用，基于 [liketrek/TREK](https://github.com/liketrek/TREK) 构建。以实时协作地图为核心，集行程规划、路线优化、预算管理、行李清单、旅行日记于一体。
+Trek 是一款自托管的旅行规划工具，基于 [liketrek/TREK](https://github.com/liketrek/TREK) 开源项目构建。
 
 ## 功能特点
 
-- **🗺️ 交互地图** — 集成 Leaflet/Mapbox GL 地图，支持 3D 建筑、路线可视化、地点聚类
-- **📋 拖拽规划器** — 按天规划行程，支持跨日移动、路线优化
-- **💰 费用管理** — Splitwise 风格的费用分摊，多币种支持
-- **🎒 行李清单** — 支持模板、人员分配、重量追踪
-- **📝 旅行日记** — 杂志风格的旅程记录，支持照片、地图、心情
-- **👥 实时协作** — WebSocket 实时同步，多人协作编辑
-- **🔐 SSO 登录** — 支持 Google/Apple/Authentik/Keycloak 等 OIDC 提供商
-- **📱 PWA 支持** — 可安装到桌面/手机，离线访问
-- **🤖 AI / MCP** — 内置 MCP 服务器，AI 助手可自动创建行程
-- **🌐 20 种语言** — 支持中文、英文、日文等多语言界面
+- **实时协作地图** - 在地图上规划行程，支持多人协作
+- **路线优化** - 智能优化旅行路线
+- **预算管理** - 跟踪旅行开销
+- **行李清单** - 管理旅行物品
+- **旅行日记** - 记录旅行体验
+- **AI 辅助** - 集成 AI 旅行建议
+- **SSO 登录** - 支持 OAuth/SSO
+- **PWA 离线访问** - 移动设备离线使用
+- **MCP 协议扩展** - 可扩展插件系统
 
-## 版本
+## 版本信息
 
-**v3.4.1** — 飞牛 OS (fnOS) 适配版
+- 上游版本：`v4.1.1`
+- FPK 版本：`4.1.1`
+- 架构：`amd64`
+- 默认端口：`32679`
 
-- 基于 Docker 镜像 `mauriceboe/trek:latest`
-- 支持安装时自定义访问端口
-- 支持应用设置中修改端口
-- 🔧 已修复 HTTP 下 Cookie Secure 导致登录失败（`COOKIE_SECURE=false`）
-- 🔑 预制默认管理员账号：`admin@trek.local` / `Admin12345`
+## 安装说明
 
-## 安装方式
+1. 在 fnOS 应用中心安装 `TREK`
+2. 设置访问端口（默认 32679）
+3. 安装完成后访问 `http://<NAS-IP>:32679/`
+4. 使用默认凭据登录并修改密码
 
-在 飞牛FnDepot 直接添加本源，客户端中搜索「TREK」即可安装
+## 环境变量
 
-> ⚠️ 首次登录请使用默认账号 `admin@trek.local` / `Admin12345`，登录后请立即修改密码。
+| 变量 | 默认值 | 说明 |
+|------|--------|------|
+| `ENCRYPTION_KEY` | 自动生成 | 加密密钥（首次启动自动生成） |
+| `TZ` | `Asia/Shanghai` | 时区 |
+| `LOG_LEVEL` | `info` | 日志级别 |
+| `ADMIN_EMAIL` | `admin@trek.local` | 管理员邮箱 |
+| `ADMIN_PASSWORD` | `changeme` | 管理员密码 |
+
+## 数据目录
+
+- `/var/apps/trek/var/data` - 应用数据
+- `/var/apps/trek/var/uploads` - 用户上传文件
 
 ## 原作者
 
 - **项目**: [liketrek/TREK](https://github.com/liketrek/TREK)
-- **许可**: AGPL v3
+- **许可**: MIT
+- **Docker镜像**: [mauriceboe/trek](https://hub.docker.com/r/mauriceboe/trek)
 
 ---
 
-本 fpk 由 [Blue-Mink](https://github.com/Blue-Mink) 为 fnOS 平台打包
+本 FPK 由 [Blue-Mink](https://github.com/Blue-Mink) 为 fnOS 平台打包。
