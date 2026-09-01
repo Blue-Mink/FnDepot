@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "TREK has been upgraded."
-exit 0
