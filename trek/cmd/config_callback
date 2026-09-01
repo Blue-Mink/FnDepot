@@ -89,11 +89,11 @@ if command -v docker >/dev/null 2>&1 && [ -f "$APP_DIR/docker/docker-compose.yml
   export TRIM_PKGVAR="$PKG_VAR"
   export wizard_access_port="$PORT"
   cd "$APP_DIR/docker"
-  docker compose down --remove-orphans 2>/dev/null || true
+  docker compose -p trek down --remove-orphans 2>/dev/null || true
   if docker ps -a --format '{{.Names}}' | grep -qx 'trek'; then
     docker rm -f trek >/dev/null 2>&1 || true
   fi
-  docker compose up -d
+  docker compose -p trek up -d
 fi
 
 (
