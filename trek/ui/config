@@ -1,10 +1,13 @@
 {
-  "port": "32679",
-  "default_url": "://${host}:32679/",
-  "urls": [
-    {
-      "text": "TREK Web UI",
-      "url": "://${host}:32679/"
+  ".url": {
+    "com.trek.app.Application": {
+      "title": "TREK",
+      "icon": "images/icon_{0}.png",
+      "type": "iframe",
+      "protocol": "http",
+      "port": "32679",
+      "url": "/",
+      "allUsers": false
     }
-  ]
+  }
 }
