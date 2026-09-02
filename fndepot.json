@@ -157,9 +157,9 @@
   },
   "kspeeder": {
     "display_name": "KSpeeder",
-    "version": "0.7.16",
-    "platform": "all",
-    "desc": "Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心。",
+    "version": "0.7.17",
+    "platform": "x86",
+    "desc": "Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心，支持在安装和应用设置中修改管理端口与镜像代理端口。",
     "labels": "工具，网络",
     "icon_url": "./kspeeder/ICON.PNG",
     "readme_url": "./kspeeder/README.md",
@@ -170,9 +170,10 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "7.5",
-    "isdocker": "true",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.16/kspeeder-0.7.16-fnos-amd64.fpk",
-    "changelog": "首发 fnOS 版本\nv0.7.16（与原项目版本一致）\n修复图标圆角显示问题\n优化飞牛 fnOS 应用中心适配"
+    "size": "6.2",
+    "isdocker": "false",
+    "service_port": "5003",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.17/kspeeder-0.7.17-fnos-amd64.fpk",
+    "changelog": "同步 iStoreEnhance / KSpeeder v0.7.17\n修复飞牛应用设置页修改管理端口后打开入口仍指向旧端口的问题\n修复端口修改时旧进程按新端口查找导致无法停止的问题\n修复真实 AppCenter 环境下 config_callback 路径解析不一致导致服务未重启的问题\n应用设置页回显当前实际管理端口与代理端口\n管理端口、代理端口、ui/config、AppCenter 入口与实际监听端口保持同步"
   }
 }
