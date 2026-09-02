@@ -218,7 +218,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.7.16-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.7.17-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
 [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -227,8 +227,9 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **原作者** | [kspeeder](https://github.com/kspeeder) |
 | 📁 **原项目** | [docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) |
-| 📥 **安装方式** | 下载 [kspeeder-0.7.16-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.16/kspeeder-0.7.16-fnos-amd64.fpk) 在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v0.7.16 |
+| 📥 **安装方式** | 下载 [kspeeder-0.7.17-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.17/kspeeder-0.7.17-fnos-amd64.fpk) 在 fnOS 应用中心手动安装，安装/应用设置中可修改管理端口与镜像代理端口 |
+| 🏷️ **版本** | v0.7.17 |
+| 🌐 **默认端口** | 管理界面 5003 / 镜像代理 5443 |
 | 📖 **详细说明** | [kspeeder/README.md](kspeeder/README.md) |
 
 ---
