@@ -137,7 +137,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 <div align="center">
 
-[![daidai-panel](https://img.shields.io/badge/daidai--panel-v2.3.9-red?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![daidai-panel](https://img.shields.io/badge/daidai--panel-v3.2.6-red?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
 [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -146,8 +146,8 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | :--- | :--- |
 | 👨‍💻 **原作者** | [linzixuanzz](https://github.com/linzixuanzz) |
 | 📁 **原项目** | [daidai-panel](https://github.com/linzixuanzz/daidai-panel) |
-| 📥 **安装方式** | 下载 [daidai-panel-v2.3.9.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk) 在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v2.3.9（同步原作者最新版） |
+| 📥 **安装方式** | 下载 [daidai-panel-v3.2.6.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v3.2.6/daidai-panel-v3.2.6.fpk) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v3.2.6（同步原作者 2026-09-08 最新版） |
 | 🌐 **脚本资源** | https://www.xiaoxin03.top/ |
 
 ---
