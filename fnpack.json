@@ -52,9 +52,7 @@
     "isdocker": "false",
     "service_port": "7999",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.11/fn-knock-2.4.11-fnos-amd64.fpk",
-    "changelog": "同步上游 kci-lnk/fn-knock v2.4.11（官方 fnOS FPK 原包）
-fpk 与源码快照见本 Release 附件
-已支持应用内更新，建议开启自动更新检查"
+    "changelog": "同步上游 kci-lnk/fn-knock v2.4.11（官方 fnOS FPK 原包）\nfpk 与源码快照见本 Release 附件\n已支持应用内更新，建议开启自动更新检查"
   },
   "trek": {
     "display_name": "TREK",
